@@ -1,0 +1,1813 @@
+1..1812
+ok 1 - t/001compile.t does not have a shebang
+ok 2 - t/002goodperl.t does not have a shebang
+ok 3 - t/004template.t does not have a shebang
+ok 4 - t/005whitespace.t does not have a shebang
+ok 5 - t/006spellcheck.t does not have a shebang
+ok 6 - t/007util.t does not have a shebang
+ok 7 - t/008filter.t does not have a shebang
+ok 8 - t/009bugwords.t does not have a shebang
+ok 9 - t/010dependencies.t does not have a shebang
+ok 10 - t/011pod.t does not have a shebang
+ok 11 - t/012throwables.t does not have a shebang
+ok 12 - t/013dbschema.t does not have a shebang
+ok 13 - t/014critic-core.t does not have a shebang
+ok 14 - t/015remote_ip.t does not have a shebang
+ok 15 - t/016csp.t does not have a shebang
+ok 16 - t/100markdown.t does not have a shebang
+ok 17 - xt/rest/bugzilla.t does not have a shebang
+ok 18 - xt/rest/classification.t does not have a shebang
+ok 19 - xt/selenium/bug_edit.t does not have a shebang
+ok 20 - xt/selenium/choose_priority.t does not have a shebang
+ok 21 - xt/selenium/classifications.t does not have a shebang
+ok 22 - xt/selenium/config.t does not have a shebang
+ok 23 - xt/selenium/create_user_accounts.t does not have a shebang
+ok 24 - xt/selenium/custom_fields.t does not have a shebang
+ok 25 - xt/selenium/custom_fields_admin.t does not have a shebang
+ok 26 - xt/selenium/dependencies.t does not have a shebang
+ok 27 - xt/selenium/edit_products_properties.t does not have a shebang
+ok 28 - xt/selenium/email_preferences.t does not have a shebang
+ok 29 - xt/selenium/enter_new_bug.t does not have a shebang
+ok 30 - xt/selenium/flags.t does not have a shebang
+ok 31 - xt/selenium/flags2.t does not have a shebang
+ok 32 - xt/selenium/groups.t does not have a shebang
+ok 33 - xt/selenium/keywords.t does not have a shebang
+ok 34 - xt/selenium/login.t does not have a shebang
+ok 35 - xt/selenium/milestones.t does not have a shebang
+ok 36 - xt/selenium/password_complexity.t does not have a shebang
+ok 37 - xt/selenium/private_attachments.t does not have a shebang
+ok 38 - xt/selenium/qa_contact.t does not have a shebang
+ok 39 - xt/selenium/require_login.t does not have a shebang
+ok 40 - xt/selenium/sanity_check.t does not have a shebang
+ok 41 - xt/selenium/saved_searches.t does not have a shebang
+ok 42 - xt/selenium/search.t does not have a shebang
+ok 43 - xt/selenium/security.t does not have a shebang
+ok 44 - xt/selenium/shared_searches.t does not have a shebang
+ok 45 - xt/selenium/show_all_products.t does not have a shebang
+ok 46 - xt/selenium/shutdown.t does not have a shebang
+ok 47 - xt/selenium/status_whiteboard.t does not have a shebang
+ok 48 - xt/selenium/strict_isolation.t does not have a shebang
+ok 49 - xt/selenium/sudo_sessions.t does not have a shebang
+ok 50 - xt/selenium/target_milestones.t does not have a shebang
+ok 51 - xt/selenium/time_summary.t does not have a shebang
+ok 52 - xt/selenium/user_groups.t does not have a shebang
+ok 53 - xt/selenium/user_matching.t does not have a shebang
+ok 54 - xt/selenium/user_preferences.t does not have a shebang
+ok 55 - xt/selenium/user_privs.t does not have a shebang
+ok 56 - xt/selenium/votes.t does not have a shebang
+ok 57 - xt/webservice/bug_add_attachment.t does not have a shebang
+ok 58 - xt/webservice/bug_add_comment.t does not have a shebang
+ok 59 - xt/webservice/bug_attachments.t does not have a shebang
+ok 60 - xt/webservice/bug_comments.t does not have a shebang
+ok 61 - xt/webservice/bug_create.t does not have a shebang
+ok 62 - xt/webservice/bug_fields.t does not have a shebang
+ok 63 - xt/webservice/bug_get.t does not have a shebang
+ok 64 - xt/webservice/bug_history.t does not have a shebang
+ok 65 - xt/webservice/bug_legal_values.t does not have a shebang
+ok 66 - xt/webservice/bug_search.t does not have a shebang
+ok 67 - xt/webservice/bug_update.t does not have a shebang
+ok 68 - xt/webservice/bug_update_see_also.t does not have a shebang
+ok 69 - xt/webservice/bugzilla.t does not have a shebang
+ok 70 - xt/webservice/group_create.t does not have a shebang
+ok 71 - xt/webservice/jsonp.t does not have a shebang
+ok 72 - xt/webservice/product_create.t does not have a shebang
+ok 73 - xt/webservice/product_get.t does not have a shebang
+ok 74 - xt/webservice/user_create.t does not have a shebang
+ok 75 - xt/webservice/user_get.t does not have a shebang
+ok 76 - xt/webservice/user_login_logout.t does not have a shebang
+ok 77 - xt/webservice/user_offer_account_by_email.t does not have a shebang
+ok 78 - admin.cgi uses standard perl location and -T flag
+ok 79 - app.psgi uses standard perl location
+ok 80 - attachment.cgi uses standard perl location and -T flag
+ok 81 - auth.cgi uses standard perl location and -T flag
+ok 82 - buglist.cgi uses standard perl location and -T flag
+ok 83 - Bugzilla.pm does not have a shebang
+ok 84 - chart.cgi uses standard perl location and -T flag
+ok 85 - checksetup.pl uses standard perl location
+ok 86 - clean-bug-user-last-visit.pl uses standard perl location
+ok 87 - colchange.cgi uses standard perl location and -T flag
+ok 88 - collectstats.pl uses standard perl location
+ok 89 - config.cgi uses standard perl location and -T flag
+ok 90 - createaccount.cgi uses standard perl location and -T flag
+ok 91 - describecomponents.cgi uses standard perl location and -T flag
+ok 92 - describekeywords.cgi uses standard perl location and -T flag
+ok 93 - duplicates.cgi uses standard perl location and -T flag
+ok 94 - editclassifications.cgi uses standard perl location and -T flag
+ok 95 - editcomponents.cgi uses standard perl location and -T flag
+ok 96 - editfields.cgi uses standard perl location and -T flag
+ok 97 - editflagtypes.cgi uses standard perl location and -T flag
+ok 98 - editgroups.cgi uses standard perl location and -T flag
+ok 99 - editkeywords.cgi uses standard perl location and -T flag
+ok 100 - editmilestones.cgi uses standard perl location and -T flag
+ok 101 - editparams.cgi uses standard perl location and -T flag
+ok 102 - editproducts.cgi uses standard perl location and -T flag
+ok 103 - editsettings.cgi uses standard perl location and -T flag
+ok 104 - editusers.cgi uses standard perl location and -T flag
+ok 105 - editvalues.cgi uses standard perl location and -T flag
+ok 106 - editversions.cgi uses standard perl location and -T flag
+ok 107 - editwhines.cgi uses standard perl location and -T flag
+ok 108 - editworkflow.cgi uses standard perl location and -T flag
+ok 109 - email_in.pl uses standard perl location and -T flag
+ok 110 - enter_bug.cgi uses standard perl location and -T flag
+ok 111 - gen-cpanfile.pl uses standard perl location
+ok 112 - importxml.pl uses standard perl location and -T flag
+ok 113 - index.cgi uses standard perl location and -T flag
+ok 114 - jobqueue.pl uses standard perl location
+ok 115 - jsonrpc.cgi uses standard perl location and -T flag
+ok 116 - migrate.pl uses standard perl location
+ok 117 - mod_perl.pl uses standard perl location and -T flag
+ok 118 - page.cgi uses standard perl location and -T flag
+ok 119 - post_bug.cgi uses standard perl location and -T flag
+ok 120 - process_bug.cgi uses standard perl location and -T flag
+ok 121 - query.cgi uses standard perl location and -T flag
+ok 122 - quips.cgi uses standard perl location and -T flag
+ok 123 - relogin.cgi uses standard perl location and -T flag
+ok 124 - report.cgi uses standard perl location and -T flag
+ok 125 - reports.cgi uses standard perl location and -T flag
+ok 126 - request.cgi uses standard perl location and -T flag
+ok 127 - rest.cgi uses standard perl location and -T flag
+ok 128 - sanitycheck.cgi uses standard perl location and -T flag
+ok 129 - sanitycheck.pl uses standard perl location
+ok 130 - search_plugin.cgi uses standard perl location and -T flag
+ok 131 - show_activity.cgi uses standard perl location and -T flag
+ok 132 - show_bug.cgi uses standard perl location and -T flag
+ok 133 - showdependencygraph.cgi uses standard perl location and -T flag
+ok 134 - showdependencytree.cgi uses standard perl location and -T flag
+ok 135 - shutdown.cgi uses standard perl location and -T flag
+ok 136 - summarize_time.cgi uses standard perl location and -T flag
+ok 137 - testagent.cgi uses standard perl location and -T flag
+ok 138 - testserver.pl uses standard perl location
+ok 139 - token.cgi uses standard perl location and -T flag
+ok 140 - userprefs.cgi uses standard perl location and -T flag
+ok 141 - view_job_queue.cgi uses standard perl location and -T flag
+ok 142 - votes.cgi uses standard perl location and -T flag
+ok 143 - whine.pl uses standard perl location and -T flag
+ok 144 - whineatnews.pl uses standard perl location
+ok 145 - xmlrpc.cgi uses standard perl location and -T flag
+ok 146 - Bugzilla/Group.pm does not have a shebang
+ok 147 - Bugzilla/User.pm does not have a shebang
+ok 148 - Bugzilla/Attachment.pm does not have a shebang
+ok 149 - Bugzilla/Version.pm does not have a shebang
+ok 150 - Bugzilla/Template.pm does not have a shebang
+ok 151 - Bugzilla/Auth.pm does not have a shebang
+ok 152 - Bugzilla/RNG.pm does not have a shebang
+ok 153 - Bugzilla/WebService.pm does not have a shebang
+ok 154 - Bugzilla/DB.pm does not have a shebang
+ok 155 - Bugzilla/Update.pm does not have a shebang
+ok 156 - Bugzilla/Search.pm does not have a shebang
+ok 157 - Bugzilla/BugUrl.pm does not have a shebang
+ok 158 - Bugzilla/Constants.pm does not have a shebang
+ok 159 - Bugzilla/CGI.pm does not have a shebang
+ok 160 - Bugzilla/Bug.pm does not have a shebang
+ok 161 - Bugzilla/Markdown.pm does not have a shebang
+ok 162 - Bugzilla/Extension.pm does not have a shebang
+ok 163 - Bugzilla/Config.pm does not have a shebang
+ok 164 - Bugzilla/JobQueue.pm does not have a shebang
+ok 165 - Bugzilla/Util.pm does not have a shebang
+ok 166 - Bugzilla/FlagType.pm does not have a shebang
+ok 167 - Bugzilla/Hook.pm does not have a shebang
+ok 168 - Bugzilla/Object.pm does not have a shebang
+ok 169 - Bugzilla/Series.pm does not have a shebang
+ok 170 - Bugzilla/Install.pm does not have a shebang
+ok 171 - Bugzilla/Token.pm does not have a shebang
+ok 172 - Bugzilla/Classification.pm does not have a shebang
+ok 173 - Bugzilla/Comment.pm does not have a shebang
+ok 174 - Bugzilla/BugUserLastVisit.pm does not have a shebang
+ok 175 - Bugzilla/Field.pm does not have a shebang
+ok 176 - Bugzilla/Report.pm does not have a shebang
+ok 177 - Bugzilla/Product.pm does not have a shebang
+ok 178 - Bugzilla/Status.pm does not have a shebang
+ok 179 - Bugzilla/Flag.pm does not have a shebang
+ok 180 - Bugzilla/Keyword.pm does not have a shebang
+ok 181 - Bugzilla/Component.pm does not have a shebang
+ok 182 - Bugzilla/Milestone.pm does not have a shebang
+ok 183 - Bugzilla/Memcached.pm does not have a shebang
+ok 184 - Bugzilla/MIME.pm does not have a shebang
+ok 185 - Bugzilla/Chart.pm does not have a shebang
+ok 186 - Bugzilla/Whine.pm does not have a shebang
+ok 187 - Bugzilla/UserAgent.pm does not have a shebang
+ok 188 - Bugzilla/Mailer.pm does not have a shebang
+ok 189 - Bugzilla/Migrate.pm does not have a shebang
+ok 190 - Bugzilla/BugMail.pm does not have a shebang
+ok 191 - Bugzilla/Error.pm does not have a shebang
+ok 192 - Bugzilla/User/Setting.pm does not have a shebang
+ok 193 - Bugzilla/User/APIKey.pm does not have a shebang
+ok 194 - Bugzilla/User/Setting/Timezone.pm does not have a shebang
+ok 195 - Bugzilla/User/Setting/Lang.pm does not have a shebang
+ok 196 - Bugzilla/User/Setting/Skin.pm does not have a shebang
+ok 197 - Bugzilla/API/Server.pm does not have a shebang
+ok 198 - Bugzilla/API/1_0/Constants.pm does not have a shebang
+ok 199 - Bugzilla/API/1_0/Util.pm does not have a shebang
+ok 200 - Bugzilla/API/1_0/Server.pm does not have a shebang
+ok 201 - Bugzilla/API/1_0/Resource.pm does not have a shebang
+ok 202 - Bugzilla/API/1_0/Resource/Group.pm does not have a shebang
+ok 203 - Bugzilla/API/1_0/Resource/User.pm does not have a shebang
+ok 204 - Bugzilla/API/1_0/Resource/Bugzilla.pm does not have a shebang
+ok 205 - Bugzilla/API/1_0/Resource/Bug.pm does not have a shebang
+ok 206 - Bugzilla/API/1_0/Resource/FlagType.pm does not have a shebang
+ok 207 - Bugzilla/API/1_0/Resource/Classification.pm does not have a shebang
+ok 208 - Bugzilla/API/1_0/Resource/BugUserLastVisit.pm does not have a shebang
+ok 209 - Bugzilla/API/1_0/Resource/Product.pm does not have a shebang
+ok 210 - Bugzilla/API/1_0/Resource/Component.pm does not have a shebang
+ok 211 - Bugzilla/Comment/TagWeights.pm does not have a shebang
+ok 212 - Bugzilla/JobQueue/Runner.pm does not have a shebang
+ok 213 - Bugzilla/Migrate/Gnats.pm does not have a shebang
+ok 214 - Bugzilla/CGI/ContentSecurityPolicy.pm does not have a shebang
+ok 215 - Bugzilla/WebService/Group.pm does not have a shebang
+ok 216 - Bugzilla/WebService/User.pm does not have a shebang
+ok 217 - Bugzilla/WebService/Bugzilla.pm does not have a shebang
+ok 218 - Bugzilla/WebService/Constants.pm does not have a shebang
+ok 219 - Bugzilla/WebService/Bug.pm does not have a shebang
+ok 220 - Bugzilla/WebService/Util.pm does not have a shebang
+ok 221 - Bugzilla/WebService/FlagType.pm does not have a shebang
+ok 222 - Bugzilla/WebService/Classification.pm does not have a shebang
+ok 223 - Bugzilla/WebService/Server.pm does not have a shebang
+ok 224 - Bugzilla/WebService/BugUserLastVisit.pm does not have a shebang
+ok 225 - Bugzilla/WebService/Product.pm does not have a shebang
+ok 226 - Bugzilla/WebService/Component.pm does not have a shebang
+ok 227 - Bugzilla/WebService/Server/JSONRPC.pm does not have a shebang
+ok 228 - Bugzilla/WebService/Server/XMLRPC.pm does not have a shebang
+ok 229 - Bugzilla/Install/Filesystem.pm does not have a shebang
+ok 230 - Bugzilla/Install/DB.pm does not have a shebang
+ok 231 - Bugzilla/Install/Util.pm does not have a shebang
+ok 232 - Bugzilla/Install/Requirements.pm does not have a shebang
+ok 233 - Bugzilla/Install/Localconfig.pm does not have a shebang
+ok 234 - Bugzilla/DB/Oracle.pm does not have a shebang
+ok 235 - Bugzilla/DB/Sqlite.pm does not have a shebang
+ok 236 - Bugzilla/DB/Pg.pm does not have a shebang
+ok 237 - Bugzilla/DB/Schema.pm does not have a shebang
+ok 238 - Bugzilla/DB/Mysql.pm does not have a shebang
+ok 239 - Bugzilla/DB/Schema/Oracle.pm does not have a shebang
+ok 240 - Bugzilla/DB/Schema/Sqlite.pm does not have a shebang
+ok 241 - Bugzilla/DB/Schema/Pg.pm does not have a shebang
+ok 242 - Bugzilla/DB/Schema/Mysql.pm does not have a shebang
+ok 243 - Bugzilla/BugUrl/Bugzilla.pm does not have a shebang
+ok 244 - Bugzilla/BugUrl/JIRA.pm does not have a shebang
+ok 245 - Bugzilla/BugUrl/SourceForge.pm does not have a shebang
+ok 246 - Bugzilla/BugUrl/Trac.pm does not have a shebang
+ok 247 - Bugzilla/BugUrl/Launchpad.pm does not have a shebang
+ok 248 - Bugzilla/BugUrl/Debian.pm does not have a shebang
+ok 249 - Bugzilla/BugUrl/MantisBT.pm does not have a shebang
+ok 250 - Bugzilla/BugUrl/Google.pm does not have a shebang
+ok 251 - Bugzilla/BugUrl/GitHub.pm does not have a shebang
+ok 252 - Bugzilla/BugUrl/Bugzilla/Local.pm does not have a shebang
+ok 253 - Bugzilla/Config/Attachment.pm does not have a shebang
+ok 254 - Bugzilla/Config/BugFields.pm does not have a shebang
+ok 255 - Bugzilla/Config/Auth.pm does not have a shebang
+ok 256 - Bugzilla/Config/Advanced.pm does not have a shebang
+ok 257 - Bugzilla/Config/General.pm does not have a shebang
+ok 258 - Bugzilla/Config/GroupSecurity.pm does not have a shebang
+ok 259 - Bugzilla/Config/ShadowDB.pm does not have a shebang
+ok 260 - Bugzilla/Config/RADIUS.pm does not have a shebang
+ok 261 - Bugzilla/Config/LDAP.pm does not have a shebang
+ok 262 - Bugzilla/Config/Common.pm does not have a shebang
+ok 263 - Bugzilla/Config/UserMatch.pm does not have a shebang
+ok 264 - Bugzilla/Config/Memcached.pm does not have a shebang
+ok 265 - Bugzilla/Config/Admin.pm does not have a shebang
+ok 266 - Bugzilla/Config/BugChange.pm does not have a shebang
+ok 267 - Bugzilla/Config/Query.pm does not have a shebang
+ok 268 - Bugzilla/Config/Core.pm does not have a shebang
+ok 269 - Bugzilla/Config/MTA.pm does not have a shebang
+ok 270 - Bugzilla/Template/Context.pm does not have a shebang
+ok 271 - Bugzilla/Template/Plugin/Bugzilla.pm does not have a shebang
+ok 272 - Bugzilla/Template/Plugin/Hook.pm does not have a shebang
+ok 273 - Bugzilla/Sender/Transport/Sendmail.pm does not have a shebang
+ok 274 - Bugzilla/Search/Condition.pm does not have a shebang
+ok 275 - Bugzilla/Search/Clause.pm does not have a shebang
+ok 276 - Bugzilla/Search/Saved.pm does not have a shebang
+ok 277 - Bugzilla/Search/Quicksearch.pm does not have a shebang
+ok 278 - Bugzilla/Search/ClauseGroup.pm does not have a shebang
+ok 279 - Bugzilla/Search/Recent.pm does not have a shebang
+ok 280 - Bugzilla/Field/ChoiceInterface.pm does not have a shebang
+ok 281 - Bugzilla/Field/Choice.pm does not have a shebang
+ok 282 - Bugzilla/Whine/Schedule.pm does not have a shebang
+ok 283 - Bugzilla/Whine/Query.pm does not have a shebang
+ok 284 - Bugzilla/Job/Mailer.pm does not have a shebang
+ok 285 - Bugzilla/Job/BugMail.pm does not have a shebang
+ok 286 - Bugzilla/Attachment/PatchReader.pm does not have a shebang
+ok 287 - Bugzilla/Auth/Login.pm does not have a shebang
+ok 288 - Bugzilla/Auth/Verify.pm does not have a shebang
+ok 289 - Bugzilla/Auth/Persist/Cookie.pm does not have a shebang
+ok 290 - Bugzilla/Auth/Login/CGI.pm does not have a shebang
+ok 291 - Bugzilla/Auth/Login/Env.pm does not have a shebang
+ok 292 - Bugzilla/Auth/Login/Stack.pm does not have a shebang
+ok 293 - Bugzilla/Auth/Login/Cookie.pm does not have a shebang
+ok 294 - Bugzilla/Auth/Login/APIKey.pm does not have a shebang
+ok 295 - Bugzilla/Auth/Verify/DB.pm does not have a shebang
+ok 296 - Bugzilla/Auth/Verify/RADIUS.pm does not have a shebang
+ok 297 - Bugzilla/Auth/Verify/LDAP.pm does not have a shebang
+ok 298 - Bugzilla/Auth/Verify/Stack.pm does not have a shebang
+ok 299 - docs/lib/Pod/Simple/HTMLBatch/Bugzilla.pm does not have a shebang
+ok 300 - docs/lib/Pod/Simple/HTML/Bugzilla.pm does not have a shebang
+ok 301 - extensions/create.pl uses standard perl location
+ok 302 - docs/makedocs.pl uses standard perl location
+ok 303 - t/001compile.t requires Perl 5.14.0
+ok 304 - t/001compile.t uses strict
+ok 305 - t/001compile.t uses warnings
+ok 306 - t/002goodperl.t requires Perl 5.14.0
+ok 307 - t/002goodperl.t uses strict
+ok 308 - t/002goodperl.t uses warnings
+ok 309 - t/004template.t requires Perl 5.14.0
+ok 310 - t/004template.t uses strict
+ok 311 - t/004template.t uses warnings
+ok 312 - t/005whitespace.t requires Perl 5.14.0
+ok 313 - t/005whitespace.t uses strict
+ok 314 - t/005whitespace.t uses warnings
+ok 315 - t/006spellcheck.t requires Perl 5.14.0
+ok 316 - t/006spellcheck.t uses strict
+ok 317 - t/006spellcheck.t uses warnings
+ok 318 - t/007util.t requires Perl 5.14.0
+ok 319 - t/007util.t uses strict
+ok 320 - t/007util.t uses warnings
+ok 321 - t/008filter.t requires Perl 5.14.0
+ok 322 - t/008filter.t uses strict
+ok 323 - t/008filter.t uses warnings
+ok 324 - t/009bugwords.t requires Perl 5.14.0
+ok 325 - t/009bugwords.t uses strict
+ok 326 - t/009bugwords.t uses warnings
+ok 327 - t/010dependencies.t requires Perl 5.14.0
+ok 328 - t/010dependencies.t uses strict
+ok 329 - t/010dependencies.t uses warnings
+ok 330 - t/011pod.t requires Perl 5.14.0
+ok 331 - t/011pod.t uses strict
+ok 332 - t/011pod.t uses warnings
+ok 333 - t/012throwables.t requires Perl 5.14.0
+ok 334 - t/012throwables.t uses strict
+ok 335 - t/012throwables.t uses warnings
+ok 336 - t/013dbschema.t requires Perl 5.14.0
+ok 337 - t/013dbschema.t uses strict
+ok 338 - t/013dbschema.t uses warnings
+ok 339 - t/014critic-core.t requires Perl 5.14.0
+ok 340 - t/014critic-core.t uses strict
+ok 341 - t/014critic-core.t uses warnings
+ok 342 - t/015remote_ip.t requires Perl 5.14.0
+ok 343 - t/015remote_ip.t uses strict
+ok 344 - t/015remote_ip.t uses warnings
+ok 345 - t/016csp.t requires Perl 5.14.0
+ok 346 - t/016csp.t uses strict
+ok 347 - t/016csp.t uses warnings
+ok 348 - t/100markdown.t requires Perl 5.14.0
+ok 349 - t/100markdown.t uses strict
+ok 350 - t/100markdown.t uses warnings
+ok 351 - xt/rest/bugzilla.t requires Perl 5.14.0
+ok 352 - xt/rest/bugzilla.t uses strict
+ok 353 - xt/rest/bugzilla.t uses warnings
+ok 354 - xt/rest/classification.t requires Perl 5.14.0
+ok 355 - xt/rest/classification.t uses strict
+ok 356 - xt/rest/classification.t uses warnings
+ok 357 - xt/selenium/bug_edit.t requires Perl 5.14.0
+ok 358 - xt/selenium/bug_edit.t uses strict
+ok 359 - xt/selenium/bug_edit.t uses warnings
+ok 360 - xt/selenium/choose_priority.t requires Perl 5.14.0
+ok 361 - xt/selenium/choose_priority.t uses strict
+ok 362 - xt/selenium/choose_priority.t uses warnings
+ok 363 - xt/selenium/classifications.t requires Perl 5.14.0
+ok 364 - xt/selenium/classifications.t uses strict
+ok 365 - xt/selenium/classifications.t uses warnings
+ok 366 - xt/selenium/config.t requires Perl 5.14.0
+ok 367 - xt/selenium/config.t uses strict
+ok 368 - xt/selenium/config.t uses warnings
+ok 369 - xt/selenium/create_user_accounts.t requires Perl 5.14.0
+ok 370 - xt/selenium/create_user_accounts.t uses strict
+ok 371 - xt/selenium/create_user_accounts.t uses warnings
+ok 372 - xt/selenium/custom_fields.t requires Perl 5.14.0
+ok 373 - xt/selenium/custom_fields.t uses strict
+ok 374 - xt/selenium/custom_fields.t uses warnings
+ok 375 - xt/selenium/custom_fields_admin.t requires Perl 5.14.0
+ok 376 - xt/selenium/custom_fields_admin.t uses strict
+ok 377 - xt/selenium/custom_fields_admin.t uses warnings
+ok 378 - xt/selenium/dependencies.t requires Perl 5.14.0
+ok 379 - xt/selenium/dependencies.t uses strict
+ok 380 - xt/selenium/dependencies.t uses warnings
+ok 381 - xt/selenium/edit_products_properties.t requires Perl 5.14.0
+ok 382 - xt/selenium/edit_products_properties.t uses strict
+ok 383 - xt/selenium/edit_products_properties.t uses warnings
+ok 384 - xt/selenium/email_preferences.t requires Perl 5.14.0
+ok 385 - xt/selenium/email_preferences.t uses strict
+ok 386 - xt/selenium/email_preferences.t uses warnings
+ok 387 - xt/selenium/enter_new_bug.t requires Perl 5.14.0
+ok 388 - xt/selenium/enter_new_bug.t uses strict
+ok 389 - xt/selenium/enter_new_bug.t uses warnings
+ok 390 - xt/selenium/flags.t requires Perl 5.14.0
+ok 391 - xt/selenium/flags.t uses strict
+ok 392 - xt/selenium/flags.t uses warnings
+ok 393 - xt/selenium/flags2.t requires Perl 5.14.0
+ok 394 - xt/selenium/flags2.t uses strict
+ok 395 - xt/selenium/flags2.t uses warnings
+ok 396 - xt/selenium/groups.t requires Perl 5.14.0
+ok 397 - xt/selenium/groups.t uses strict
+ok 398 - xt/selenium/groups.t uses warnings
+ok 399 - xt/selenium/keywords.t requires Perl 5.14.0
+ok 400 - xt/selenium/keywords.t uses strict
+ok 401 - xt/selenium/keywords.t uses warnings
+ok 402 - xt/selenium/login.t requires Perl 5.14.0
+ok 403 - xt/selenium/login.t uses strict
+ok 404 - xt/selenium/login.t uses warnings
+ok 405 - xt/selenium/milestones.t requires Perl 5.14.0
+ok 406 - xt/selenium/milestones.t uses strict
+ok 407 - xt/selenium/milestones.t uses warnings
+ok 408 - xt/selenium/password_complexity.t requires Perl 5.14.0
+ok 409 - xt/selenium/password_complexity.t uses strict
+ok 410 - xt/selenium/password_complexity.t uses warnings
+ok 411 - xt/selenium/private_attachments.t requires Perl 5.14.0
+ok 412 - xt/selenium/private_attachments.t uses strict
+ok 413 - xt/selenium/private_attachments.t uses warnings
+ok 414 - xt/selenium/qa_contact.t requires Perl 5.14.0
+ok 415 - xt/selenium/qa_contact.t uses strict
+ok 416 - xt/selenium/qa_contact.t uses warnings
+ok 417 - xt/selenium/require_login.t requires Perl 5.14.0
+ok 418 - xt/selenium/require_login.t uses strict
+ok 419 - xt/selenium/require_login.t uses warnings
+ok 420 - xt/selenium/sanity_check.t requires Perl 5.14.0
+ok 421 - xt/selenium/sanity_check.t uses strict
+ok 422 - xt/selenium/sanity_check.t uses warnings
+ok 423 - xt/selenium/saved_searches.t requires Perl 5.14.0
+ok 424 - xt/selenium/saved_searches.t uses strict
+ok 425 - xt/selenium/saved_searches.t uses warnings
+ok 426 - xt/selenium/search.t requires Perl 5.14.0
+ok 427 - xt/selenium/search.t uses strict
+ok 428 - xt/selenium/search.t uses warnings
+ok 429 - xt/selenium/security.t requires Perl 5.14.0
+ok 430 - xt/selenium/security.t uses strict
+ok 431 - xt/selenium/security.t uses warnings
+ok 432 - xt/selenium/shared_searches.t requires Perl 5.14.0
+ok 433 - xt/selenium/shared_searches.t uses strict
+ok 434 - xt/selenium/shared_searches.t uses warnings
+ok 435 - xt/selenium/show_all_products.t requires Perl 5.14.0
+ok 436 - xt/selenium/show_all_products.t uses strict
+ok 437 - xt/selenium/show_all_products.t uses warnings
+ok 438 - xt/selenium/shutdown.t requires Perl 5.14.0
+ok 439 - xt/selenium/shutdown.t uses strict
+ok 440 - xt/selenium/shutdown.t uses warnings
+ok 441 - xt/selenium/status_whiteboard.t requires Perl 5.14.0
+ok 442 - xt/selenium/status_whiteboard.t uses strict
+ok 443 - xt/selenium/status_whiteboard.t uses warnings
+ok 444 - xt/selenium/strict_isolation.t requires Perl 5.14.0
+ok 445 - xt/selenium/strict_isolation.t uses strict
+ok 446 - xt/selenium/strict_isolation.t uses warnings
+ok 447 - xt/selenium/sudo_sessions.t requires Perl 5.14.0
+ok 448 - xt/selenium/sudo_sessions.t uses strict
+ok 449 - xt/selenium/sudo_sessions.t uses warnings
+ok 450 - xt/selenium/target_milestones.t requires Perl 5.14.0
+ok 451 - xt/selenium/target_milestones.t uses strict
+ok 452 - xt/selenium/target_milestones.t uses warnings
+ok 453 - xt/selenium/time_summary.t requires Perl 5.14.0
+ok 454 - xt/selenium/time_summary.t uses strict
+ok 455 - xt/selenium/time_summary.t uses warnings
+ok 456 - xt/selenium/user_groups.t requires Perl 5.14.0
+ok 457 - xt/selenium/user_groups.t uses strict
+ok 458 - xt/selenium/user_groups.t uses warnings
+ok 459 - xt/selenium/user_matching.t requires Perl 5.14.0
+ok 460 - xt/selenium/user_matching.t uses strict
+ok 461 - xt/selenium/user_matching.t uses warnings
+ok 462 - xt/selenium/user_preferences.t requires Perl 5.14.0
+ok 463 - xt/selenium/user_preferences.t uses strict
+ok 464 - xt/selenium/user_preferences.t uses warnings
+ok 465 - xt/selenium/user_privs.t requires Perl 5.14.0
+ok 466 - xt/selenium/user_privs.t uses strict
+ok 467 - xt/selenium/user_privs.t uses warnings
+ok 468 - xt/selenium/votes.t requires Perl 5.14.0
+ok 469 - xt/selenium/votes.t uses strict
+ok 470 - xt/selenium/votes.t uses warnings
+ok 471 - xt/webservice/bug_add_attachment.t requires Perl 5.14.0
+ok 472 - xt/webservice/bug_add_attachment.t uses strict
+ok 473 - xt/webservice/bug_add_attachment.t uses warnings
+ok 474 - xt/webservice/bug_add_comment.t requires Perl 5.14.0
+ok 475 - xt/webservice/bug_add_comment.t uses strict
+ok 476 - xt/webservice/bug_add_comment.t uses warnings
+ok 477 - xt/webservice/bug_attachments.t requires Perl 5.14.0
+ok 478 - xt/webservice/bug_attachments.t uses strict
+ok 479 - xt/webservice/bug_attachments.t uses warnings
+ok 480 - xt/webservice/bug_comments.t requires Perl 5.14.0
+ok 481 - xt/webservice/bug_comments.t uses strict
+ok 482 - xt/webservice/bug_comments.t uses warnings
+ok 483 - xt/webservice/bug_create.t requires Perl 5.14.0
+ok 484 - xt/webservice/bug_create.t uses strict
+ok 485 - xt/webservice/bug_create.t uses warnings
+ok 486 - xt/webservice/bug_fields.t requires Perl 5.14.0
+ok 487 - xt/webservice/bug_fields.t uses strict
+ok 488 - xt/webservice/bug_fields.t uses warnings
+ok 489 - xt/webservice/bug_get.t requires Perl 5.14.0
+ok 490 - xt/webservice/bug_get.t uses strict
+ok 491 - xt/webservice/bug_get.t uses warnings
+ok 492 - xt/webservice/bug_history.t requires Perl 5.14.0
+ok 493 - xt/webservice/bug_history.t uses strict
+ok 494 - xt/webservice/bug_history.t uses warnings
+ok 495 - xt/webservice/bug_legal_values.t requires Perl 5.14.0
+ok 496 - xt/webservice/bug_legal_values.t uses strict
+ok 497 - xt/webservice/bug_legal_values.t uses warnings
+ok 498 - xt/webservice/bug_search.t requires Perl 5.14.0
+ok 499 - xt/webservice/bug_search.t uses strict
+ok 500 - xt/webservice/bug_search.t uses warnings
+ok 501 - xt/webservice/bug_update.t requires Perl 5.14.0
+ok 502 - xt/webservice/bug_update.t uses strict
+ok 503 - xt/webservice/bug_update.t uses warnings
+ok 504 - xt/webservice/bug_update_see_also.t requires Perl 5.14.0
+ok 505 - xt/webservice/bug_update_see_also.t uses strict
+ok 506 - xt/webservice/bug_update_see_also.t uses warnings
+ok 507 - xt/webservice/bugzilla.t requires Perl 5.14.0
+ok 508 - xt/webservice/bugzilla.t uses strict
+ok 509 - xt/webservice/bugzilla.t uses warnings
+ok 510 - xt/webservice/group_create.t requires Perl 5.14.0
+ok 511 - xt/webservice/group_create.t uses strict
+ok 512 - xt/webservice/group_create.t uses warnings
+ok 513 - xt/webservice/jsonp.t requires Perl 5.14.0
+ok 514 - xt/webservice/jsonp.t uses strict
+ok 515 - xt/webservice/jsonp.t uses warnings
+ok 516 - xt/webservice/product_create.t requires Perl 5.14.0
+ok 517 - xt/webservice/product_create.t uses strict
+ok 518 - xt/webservice/product_create.t uses warnings
+ok 519 - xt/webservice/product_get.t requires Perl 5.14.0
+ok 520 - xt/webservice/product_get.t uses strict
+ok 521 - xt/webservice/product_get.t uses warnings
+ok 522 - xt/webservice/user_create.t requires Perl 5.14.0
+ok 523 - xt/webservice/user_create.t uses strict
+ok 524 - xt/webservice/user_create.t uses warnings
+ok 525 - xt/webservice/user_get.t requires Perl 5.14.0
+ok 526 - xt/webservice/user_get.t uses strict
+ok 527 - xt/webservice/user_get.t uses warnings
+ok 528 - xt/webservice/user_login_logout.t requires Perl 5.14.0
+ok 529 - xt/webservice/user_login_logout.t uses strict
+ok 530 - xt/webservice/user_login_logout.t uses warnings
+ok 531 - xt/webservice/user_offer_account_by_email.t requires Perl 5.14.0
+ok 532 - xt/webservice/user_offer_account_by_email.t uses strict
+ok 533 - xt/webservice/user_offer_account_by_email.t uses warnings
+ok 534 - admin.cgi requires Perl 5.14.0
+ok 535 - admin.cgi uses strict
+ok 536 - admin.cgi uses warnings
+ok 537 - app.psgi requires Perl 5.14.0
+ok 538 - app.psgi uses strict
+ok 539 - app.psgi uses warnings
+ok 540 - attachment.cgi requires Perl 5.14.0
+ok 541 - attachment.cgi uses strict
+ok 542 - attachment.cgi uses warnings
+ok 543 - auth.cgi requires Perl 5.14.0
+ok 544 - auth.cgi uses strict
+ok 545 - auth.cgi uses warnings
+ok 546 - buglist.cgi requires Perl 5.14.0
+ok 547 - buglist.cgi uses strict
+ok 548 - buglist.cgi uses warnings
+ok 549 - Bugzilla.pm requires Perl 5.14.0
+ok 550 - Bugzilla.pm uses strict
+ok 551 - Bugzilla.pm uses warnings
+ok 552 - chart.cgi requires Perl 5.14.0
+ok 553 - chart.cgi uses strict
+ok 554 - chart.cgi uses warnings
+ok 555 - checksetup.pl requires Perl 5.14.0
+ok 556 - checksetup.pl uses strict
+ok 557 - checksetup.pl uses warnings
+ok 558 - clean-bug-user-last-visit.pl requires Perl 5.14.0
+ok 559 - clean-bug-user-last-visit.pl uses strict
+ok 560 - clean-bug-user-last-visit.pl uses warnings
+ok 561 - colchange.cgi requires Perl 5.14.0
+ok 562 - colchange.cgi uses strict
+ok 563 - colchange.cgi uses warnings
+ok 564 - collectstats.pl requires Perl 5.14.0
+ok 565 - collectstats.pl uses strict
+ok 566 - collectstats.pl uses warnings
+ok 567 - config.cgi requires Perl 5.14.0
+ok 568 - config.cgi uses strict
+ok 569 - config.cgi uses warnings
+ok 570 - createaccount.cgi requires Perl 5.14.0
+ok 571 - createaccount.cgi uses strict
+ok 572 - createaccount.cgi uses warnings
+ok 573 - describecomponents.cgi requires Perl 5.14.0
+ok 574 - describecomponents.cgi uses strict
+ok 575 - describecomponents.cgi uses warnings
+ok 576 - describekeywords.cgi requires Perl 5.14.0
+ok 577 - describekeywords.cgi uses strict
+ok 578 - describekeywords.cgi uses warnings
+ok 579 - duplicates.cgi requires Perl 5.14.0
+ok 580 - duplicates.cgi uses strict
+ok 581 - duplicates.cgi uses warnings
+ok 582 - editclassifications.cgi requires Perl 5.14.0
+ok 583 - editclassifications.cgi uses strict
+ok 584 - editclassifications.cgi uses warnings
+ok 585 - editcomponents.cgi requires Perl 5.14.0
+ok 586 - editcomponents.cgi uses strict
+ok 587 - editcomponents.cgi uses warnings
+ok 588 - editfields.cgi requires Perl 5.14.0
+ok 589 - editfields.cgi uses strict
+ok 590 - editfields.cgi uses warnings
+ok 591 - editflagtypes.cgi requires Perl 5.14.0
+ok 592 - editflagtypes.cgi uses strict
+ok 593 - editflagtypes.cgi uses warnings
+ok 594 - editgroups.cgi requires Perl 5.14.0
+ok 595 - editgroups.cgi uses strict
+ok 596 - editgroups.cgi uses warnings
+ok 597 - editkeywords.cgi requires Perl 5.14.0
+ok 598 - editkeywords.cgi uses strict
+ok 599 - editkeywords.cgi uses warnings
+ok 600 - editmilestones.cgi requires Perl 5.14.0
+ok 601 - editmilestones.cgi uses strict
+ok 602 - editmilestones.cgi uses warnings
+ok 603 - editparams.cgi requires Perl 5.14.0
+ok 604 - editparams.cgi uses strict
+ok 605 - editparams.cgi uses warnings
+ok 606 - editproducts.cgi requires Perl 5.14.0
+ok 607 - editproducts.cgi uses strict
+ok 608 - editproducts.cgi uses warnings
+ok 609 - editsettings.cgi requires Perl 5.14.0
+ok 610 - editsettings.cgi uses strict
+ok 611 - editsettings.cgi uses warnings
+ok 612 - editusers.cgi requires Perl 5.14.0
+ok 613 - editusers.cgi uses strict
+ok 614 - editusers.cgi uses warnings
+ok 615 - editvalues.cgi requires Perl 5.14.0
+ok 616 - editvalues.cgi uses strict
+ok 617 - editvalues.cgi uses warnings
+ok 618 - editversions.cgi requires Perl 5.14.0
+ok 619 - editversions.cgi uses strict
+ok 620 - editversions.cgi uses warnings
+ok 621 - editwhines.cgi requires Perl 5.14.0
+ok 622 - editwhines.cgi uses strict
+ok 623 - editwhines.cgi uses warnings
+ok 624 - editworkflow.cgi requires Perl 5.14.0
+ok 625 - editworkflow.cgi uses strict
+ok 626 - editworkflow.cgi uses warnings
+ok 627 - email_in.pl requires Perl 5.14.0
+ok 628 - email_in.pl uses strict
+ok 629 - email_in.pl uses warnings
+ok 630 - enter_bug.cgi requires Perl 5.14.0
+ok 631 - enter_bug.cgi uses strict
+ok 632 - enter_bug.cgi uses warnings
+ok 633 - gen-cpanfile.pl requires Perl 5.14.0
+ok 634 - gen-cpanfile.pl uses strict
+ok 635 - gen-cpanfile.pl uses warnings
+ok 636 - importxml.pl requires Perl 5.14.0
+ok 637 - importxml.pl uses strict
+ok 638 - importxml.pl uses warnings
+ok 639 - index.cgi requires Perl 5.14.0
+ok 640 - index.cgi uses strict
+ok 641 - index.cgi uses warnings
+ok 642 - jobqueue.pl requires Perl 5.14.0
+ok 643 - jobqueue.pl uses strict
+ok 644 - jobqueue.pl uses warnings
+ok 645 - jsonrpc.cgi requires Perl 5.14.0
+ok 646 - jsonrpc.cgi uses strict
+ok 647 - jsonrpc.cgi uses warnings
+ok 648 - migrate.pl requires Perl 5.14.0
+ok 649 - migrate.pl uses strict
+ok 650 - migrate.pl uses warnings
+ok 651 - mod_perl.pl requires Perl 5.14.0
+ok 652 - mod_perl.pl uses strict
+ok 653 - mod_perl.pl uses warnings
+ok 654 - page.cgi requires Perl 5.14.0
+ok 655 - page.cgi uses strict
+ok 656 - page.cgi uses warnings
+ok 657 - post_bug.cgi requires Perl 5.14.0
+ok 658 - post_bug.cgi uses strict
+ok 659 - post_bug.cgi uses warnings
+ok 660 - process_bug.cgi requires Perl 5.14.0
+ok 661 - process_bug.cgi uses strict
+ok 662 - process_bug.cgi uses warnings
+ok 663 - query.cgi requires Perl 5.14.0
+ok 664 - query.cgi uses strict
+ok 665 - query.cgi uses warnings
+ok 666 - quips.cgi requires Perl 5.14.0
+ok 667 - quips.cgi uses strict
+ok 668 - quips.cgi uses warnings
+ok 669 - relogin.cgi requires Perl 5.14.0
+ok 670 - relogin.cgi uses strict
+ok 671 - relogin.cgi uses warnings
+ok 672 - report.cgi requires Perl 5.14.0
+ok 673 - report.cgi uses strict
+ok 674 - report.cgi uses warnings
+ok 675 - reports.cgi requires Perl 5.14.0
+ok 676 - reports.cgi uses strict
+ok 677 - reports.cgi uses warnings
+ok 678 - request.cgi requires Perl 5.14.0
+ok 679 - request.cgi uses strict
+ok 680 - request.cgi uses warnings
+ok 681 - rest.cgi requires Perl 5.14.0
+ok 682 - rest.cgi uses strict
+ok 683 - rest.cgi uses warnings
+ok 684 - sanitycheck.cgi requires Perl 5.14.0
+ok 685 - sanitycheck.cgi uses strict
+ok 686 - sanitycheck.cgi uses warnings
+ok 687 - sanitycheck.pl requires Perl 5.14.0
+ok 688 - sanitycheck.pl uses strict
+ok 689 - sanitycheck.pl uses warnings
+ok 690 - search_plugin.cgi requires Perl 5.14.0
+ok 691 - search_plugin.cgi uses strict
+ok 692 - search_plugin.cgi uses warnings
+ok 693 - show_activity.cgi requires Perl 5.14.0
+ok 694 - show_activity.cgi uses strict
+ok 695 - show_activity.cgi uses warnings
+ok 696 - show_bug.cgi requires Perl 5.14.0
+ok 697 - show_bug.cgi uses strict
+ok 698 - show_bug.cgi uses warnings
+ok 699 - showdependencygraph.cgi requires Perl 5.14.0
+ok 700 - showdependencygraph.cgi uses strict
+ok 701 - showdependencygraph.cgi uses warnings
+ok 702 - showdependencytree.cgi requires Perl 5.14.0
+ok 703 - showdependencytree.cgi uses strict
+ok 704 - showdependencytree.cgi uses warnings
+ok 705 - shutdown.cgi requires Perl 5.14.0
+ok 706 - shutdown.cgi uses strict
+ok 707 - shutdown.cgi uses warnings
+ok 708 - summarize_time.cgi requires Perl 5.14.0
+ok 709 - summarize_time.cgi uses strict
+ok 710 - summarize_time.cgi uses warnings
+ok 711 - testagent.cgi requires Perl 5.14.0
+ok 712 - testagent.cgi uses strict
+ok 713 - testagent.cgi uses warnings
+ok 714 - testserver.pl requires Perl 5.14.0
+ok 715 - testserver.pl uses strict
+ok 716 - testserver.pl uses warnings
+ok 717 - token.cgi requires Perl 5.14.0
+ok 718 - token.cgi uses strict
+ok 719 - token.cgi uses warnings
+ok 720 - userprefs.cgi requires Perl 5.14.0
+ok 721 - userprefs.cgi uses strict
+ok 722 - userprefs.cgi uses warnings
+ok 723 - view_job_queue.cgi requires Perl 5.14.0
+ok 724 - view_job_queue.cgi uses strict
+ok 725 - view_job_queue.cgi uses warnings
+ok 726 - votes.cgi requires Perl 5.14.0
+ok 727 - votes.cgi uses strict
+ok 728 - votes.cgi uses warnings
+ok 729 - whine.pl requires Perl 5.14.0
+ok 730 - whine.pl uses strict
+ok 731 - whine.pl uses warnings
+ok 732 - whineatnews.pl requires Perl 5.14.0
+ok 733 - whineatnews.pl uses strict
+ok 734 - whineatnews.pl uses warnings
+ok 735 - xmlrpc.cgi requires Perl 5.14.0
+ok 736 - xmlrpc.cgi uses strict
+ok 737 - xmlrpc.cgi uses warnings
+ok 738 - Bugzilla/Group.pm requires Perl 5.14.0
+ok 739 - Bugzilla/Group.pm uses strict
+ok 740 - Bugzilla/Group.pm uses warnings
+ok 741 - Bugzilla/User.pm requires Perl 5.14.0
+ok 742 - Bugzilla/User.pm uses strict
+ok 743 - Bugzilla/User.pm uses warnings
+ok 744 - Bugzilla/Attachment.pm requires Perl 5.14.0
+ok 745 - Bugzilla/Attachment.pm uses strict
+ok 746 - Bugzilla/Attachment.pm uses warnings
+ok 747 - Bugzilla/Version.pm requires Perl 5.14.0
+ok 748 - Bugzilla/Version.pm uses strict
+ok 749 - Bugzilla/Version.pm uses warnings
+ok 750 - Bugzilla/Template.pm requires Perl 5.14.0
+ok 751 - Bugzilla/Template.pm uses strict
+ok 752 - Bugzilla/Template.pm uses warnings
+ok 753 - Bugzilla/Auth.pm requires Perl 5.14.0
+ok 754 - Bugzilla/Auth.pm uses strict
+ok 755 - Bugzilla/Auth.pm uses warnings
+ok 756 - Bugzilla/RNG.pm requires Perl 5.14.0
+ok 757 - Bugzilla/RNG.pm uses strict
+ok 758 - Bugzilla/RNG.pm uses warnings
+ok 759 - Bugzilla/WebService.pm requires Perl 5.14.0
+ok 760 - Bugzilla/WebService.pm uses strict
+ok 761 - Bugzilla/WebService.pm uses warnings
+ok 762 - Bugzilla/DB.pm requires Perl 5.14.0
+ok 763 - Bugzilla/DB.pm uses strict
+ok 764 - Bugzilla/DB.pm uses warnings
+ok 765 - Bugzilla/Update.pm requires Perl 5.14.0
+ok 766 - Bugzilla/Update.pm uses strict
+ok 767 - Bugzilla/Update.pm uses warnings
+ok 768 - Bugzilla/Search.pm requires Perl 5.14.0
+ok 769 - Bugzilla/Search.pm uses strict
+ok 770 - Bugzilla/Search.pm uses warnings
+ok 771 - Bugzilla/BugUrl.pm requires Perl 5.14.0
+ok 772 - Bugzilla/BugUrl.pm uses strict
+ok 773 - Bugzilla/BugUrl.pm uses warnings
+ok 774 - Bugzilla/Constants.pm requires Perl 5.14.0
+ok 775 - Bugzilla/Constants.pm uses strict
+ok 776 - Bugzilla/Constants.pm uses warnings
+ok 777 - Bugzilla/CGI.pm requires Perl 5.14.0
+ok 778 - Bugzilla/CGI.pm uses strict
+ok 779 - Bugzilla/CGI.pm uses warnings
+ok 780 - Bugzilla/Bug.pm requires Perl 5.14.0
+ok 781 - Bugzilla/Bug.pm uses strict
+ok 782 - Bugzilla/Bug.pm uses warnings
+ok 783 - Bugzilla/Markdown.pm requires Perl 5.14.0
+ok 784 - Bugzilla/Markdown.pm uses strict
+ok 785 - Bugzilla/Markdown.pm uses warnings
+ok 786 - Bugzilla/Extension.pm requires Perl 5.14.0
+ok 787 - Bugzilla/Extension.pm uses strict
+ok 788 - Bugzilla/Extension.pm uses warnings
+ok 789 - Bugzilla/Config.pm requires Perl 5.14.0
+ok 790 - Bugzilla/Config.pm uses strict
+ok 791 - Bugzilla/Config.pm uses warnings
+ok 792 - Bugzilla/JobQueue.pm requires Perl 5.14.0
+ok 793 - Bugzilla/JobQueue.pm uses strict
+ok 794 - Bugzilla/JobQueue.pm uses warnings
+ok 795 - Bugzilla/Util.pm requires Perl 5.14.0
+ok 796 - Bugzilla/Util.pm uses strict
+ok 797 - Bugzilla/Util.pm uses warnings
+ok 798 - Bugzilla/FlagType.pm requires Perl 5.14.0
+ok 799 - Bugzilla/FlagType.pm uses strict
+ok 800 - Bugzilla/FlagType.pm uses warnings
+ok 801 - Bugzilla/Hook.pm requires Perl 5.14.0
+ok 802 - Bugzilla/Hook.pm uses strict
+ok 803 - Bugzilla/Hook.pm uses warnings
+ok 804 - Bugzilla/Object.pm requires Perl 5.14.0
+ok 805 - Bugzilla/Object.pm uses strict
+ok 806 - Bugzilla/Object.pm uses warnings
+ok 807 - Bugzilla/Series.pm requires Perl 5.14.0
+ok 808 - Bugzilla/Series.pm uses strict
+ok 809 - Bugzilla/Series.pm uses warnings
+ok 810 - Bugzilla/Install.pm requires Perl 5.14.0
+ok 811 - Bugzilla/Install.pm uses strict
+ok 812 - Bugzilla/Install.pm uses warnings
+ok 813 - Bugzilla/Token.pm requires Perl 5.14.0
+ok 814 - Bugzilla/Token.pm uses strict
+ok 815 - Bugzilla/Token.pm uses warnings
+ok 816 - Bugzilla/Classification.pm requires Perl 5.14.0
+ok 817 - Bugzilla/Classification.pm uses strict
+ok 818 - Bugzilla/Classification.pm uses warnings
+ok 819 - Bugzilla/Comment.pm requires Perl 5.14.0
+ok 820 - Bugzilla/Comment.pm uses strict
+ok 821 - Bugzilla/Comment.pm uses warnings
+ok 822 - Bugzilla/BugUserLastVisit.pm requires Perl 5.14.0
+ok 823 - Bugzilla/BugUserLastVisit.pm uses strict
+ok 824 - Bugzilla/BugUserLastVisit.pm uses warnings
+ok 825 - Bugzilla/Field.pm requires Perl 5.14.0
+ok 826 - Bugzilla/Field.pm uses strict
+ok 827 - Bugzilla/Field.pm uses warnings
+ok 828 - Bugzilla/Report.pm requires Perl 5.14.0
+ok 829 - Bugzilla/Report.pm uses strict
+ok 830 - Bugzilla/Report.pm uses warnings
+ok 831 - Bugzilla/Product.pm requires Perl 5.14.0
+ok 832 - Bugzilla/Product.pm uses strict
+ok 833 - Bugzilla/Product.pm uses warnings
+ok 834 - Bugzilla/Status.pm requires Perl 5.14.0
+ok 835 - Bugzilla/Status.pm uses strict
+ok 836 - Bugzilla/Status.pm uses warnings
+ok 837 - Bugzilla/Flag.pm requires Perl 5.14.0
+ok 838 - Bugzilla/Flag.pm uses strict
+ok 839 - Bugzilla/Flag.pm uses warnings
+ok 840 - Bugzilla/Keyword.pm requires Perl 5.14.0
+ok 841 - Bugzilla/Keyword.pm uses strict
+ok 842 - Bugzilla/Keyword.pm uses warnings
+ok 843 - Bugzilla/Component.pm requires Perl 5.14.0
+ok 844 - Bugzilla/Component.pm uses strict
+ok 845 - Bugzilla/Component.pm uses warnings
+ok 846 - Bugzilla/Milestone.pm requires Perl 5.14.0
+ok 847 - Bugzilla/Milestone.pm uses strict
+ok 848 - Bugzilla/Milestone.pm uses warnings
+ok 849 - Bugzilla/Memcached.pm requires Perl 5.14.0
+ok 850 - Bugzilla/Memcached.pm uses strict
+ok 851 - Bugzilla/Memcached.pm uses warnings
+ok 852 - Bugzilla/MIME.pm requires Perl 5.14.0
+ok 853 - Bugzilla/MIME.pm uses strict
+ok 854 - Bugzilla/MIME.pm uses warnings
+ok 855 - Bugzilla/Chart.pm requires Perl 5.14.0
+ok 856 - Bugzilla/Chart.pm uses strict
+ok 857 - Bugzilla/Chart.pm uses warnings
+ok 858 - Bugzilla/Whine.pm requires Perl 5.14.0
+ok 859 - Bugzilla/Whine.pm uses strict
+ok 860 - Bugzilla/Whine.pm uses warnings
+ok 861 - Bugzilla/UserAgent.pm requires Perl 5.14.0
+ok 862 - Bugzilla/UserAgent.pm uses strict
+ok 863 - Bugzilla/UserAgent.pm uses warnings
+ok 864 - Bugzilla/Mailer.pm requires Perl 5.14.0
+ok 865 - Bugzilla/Mailer.pm uses strict
+ok 866 - Bugzilla/Mailer.pm uses warnings
+ok 867 - Bugzilla/Migrate.pm requires Perl 5.14.0
+ok 868 - Bugzilla/Migrate.pm uses strict
+ok 869 - Bugzilla/Migrate.pm uses warnings
+ok 870 - Bugzilla/BugMail.pm requires Perl 5.14.0
+ok 871 - Bugzilla/BugMail.pm uses strict
+ok 872 - Bugzilla/BugMail.pm uses warnings
+ok 873 - Bugzilla/Error.pm requires Perl 5.14.0
+ok 874 - Bugzilla/Error.pm uses strict
+ok 875 - Bugzilla/Error.pm uses warnings
+ok 876 - Bugzilla/User/Setting.pm requires Perl 5.14.0
+ok 877 - Bugzilla/User/Setting.pm uses strict
+ok 878 - Bugzilla/User/Setting.pm uses warnings
+ok 879 - Bugzilla/User/APIKey.pm requires Perl 5.14.0
+ok 880 - Bugzilla/User/APIKey.pm uses strict
+ok 881 - Bugzilla/User/APIKey.pm uses warnings
+ok 882 - Bugzilla/User/Setting/Timezone.pm requires Perl 5.14.0
+ok 883 - Bugzilla/User/Setting/Timezone.pm uses strict
+ok 884 - Bugzilla/User/Setting/Timezone.pm uses warnings
+ok 885 - Bugzilla/User/Setting/Lang.pm requires Perl 5.14.0
+ok 886 - Bugzilla/User/Setting/Lang.pm uses strict
+ok 887 - Bugzilla/User/Setting/Lang.pm uses warnings
+ok 888 - Bugzilla/User/Setting/Skin.pm requires Perl 5.14.0
+ok 889 - Bugzilla/User/Setting/Skin.pm uses strict
+ok 890 - Bugzilla/User/Setting/Skin.pm uses warnings
+ok 891 - Bugzilla/API/Server.pm requires Perl 5.14.0
+ok 892 - Bugzilla/API/Server.pm uses strict
+ok 893 - Bugzilla/API/Server.pm uses warnings
+ok 894 - Bugzilla/API/1_0/Constants.pm requires Perl 5.14.0
+ok 895 - Bugzilla/API/1_0/Constants.pm uses strict
+ok 896 - Bugzilla/API/1_0/Constants.pm uses warnings
+ok 897 - Bugzilla/API/1_0/Util.pm requires Perl 5.14.0
+ok 898 - Bugzilla/API/1_0/Util.pm uses strict
+ok 899 - Bugzilla/API/1_0/Util.pm uses warnings
+ok 900 - Bugzilla/API/1_0/Server.pm requires Perl 5.14.0
+ok 901 - Bugzilla/API/1_0/Server.pm uses strict
+ok 902 - Bugzilla/API/1_0/Server.pm uses warnings
+ok 903 - Bugzilla/API/1_0/Resource.pm requires Perl 5.14.0
+ok 904 - Bugzilla/API/1_0/Resource.pm uses strict
+ok 905 - Bugzilla/API/1_0/Resource.pm uses warnings
+ok 906 - Bugzilla/API/1_0/Resource/Group.pm requires Perl 5.14.0
+ok 907 - Bugzilla/API/1_0/Resource/Group.pm uses strict
+ok 908 - Bugzilla/API/1_0/Resource/Group.pm uses warnings
+ok 909 - Bugzilla/API/1_0/Resource/User.pm requires Perl 5.14.0
+ok 910 - Bugzilla/API/1_0/Resource/User.pm uses strict
+ok 911 - Bugzilla/API/1_0/Resource/User.pm uses warnings
+ok 912 - Bugzilla/API/1_0/Resource/Bugzilla.pm requires Perl 5.14.0
+ok 913 - Bugzilla/API/1_0/Resource/Bugzilla.pm uses strict
+ok 914 - Bugzilla/API/1_0/Resource/Bugzilla.pm uses warnings
+ok 915 - Bugzilla/API/1_0/Resource/Bug.pm requires Perl 5.14.0
+ok 916 - Bugzilla/API/1_0/Resource/Bug.pm uses strict
+ok 917 - Bugzilla/API/1_0/Resource/Bug.pm uses warnings
+ok 918 - Bugzilla/API/1_0/Resource/FlagType.pm requires Perl 5.14.0
+ok 919 - Bugzilla/API/1_0/Resource/FlagType.pm uses strict
+ok 920 - Bugzilla/API/1_0/Resource/FlagType.pm uses warnings
+ok 921 - Bugzilla/API/1_0/Resource/Classification.pm requires Perl 5.14.0
+ok 922 - Bugzilla/API/1_0/Resource/Classification.pm uses strict
+ok 923 - Bugzilla/API/1_0/Resource/Classification.pm uses warnings
+ok 924 - Bugzilla/API/1_0/Resource/BugUserLastVisit.pm requires Perl 5.14.0
+ok 925 - Bugzilla/API/1_0/Resource/BugUserLastVisit.pm uses strict
+ok 926 - Bugzilla/API/1_0/Resource/BugUserLastVisit.pm uses warnings
+ok 927 - Bugzilla/API/1_0/Resource/Product.pm requires Perl 5.14.0
+ok 928 - Bugzilla/API/1_0/Resource/Product.pm uses strict
+ok 929 - Bugzilla/API/1_0/Resource/Product.pm uses warnings
+ok 930 - Bugzilla/API/1_0/Resource/Component.pm requires Perl 5.14.0
+ok 931 - Bugzilla/API/1_0/Resource/Component.pm uses strict
+ok 932 - Bugzilla/API/1_0/Resource/Component.pm uses warnings
+ok 933 - Bugzilla/Comment/TagWeights.pm requires Perl 5.14.0
+ok 934 - Bugzilla/Comment/TagWeights.pm uses strict
+ok 935 - Bugzilla/Comment/TagWeights.pm uses warnings
+ok 936 - Bugzilla/JobQueue/Runner.pm requires Perl 5.14.0
+ok 937 - Bugzilla/JobQueue/Runner.pm uses strict
+ok 938 - Bugzilla/JobQueue/Runner.pm uses warnings
+ok 939 - Bugzilla/Migrate/Gnats.pm requires Perl 5.14.0
+ok 940 - Bugzilla/Migrate/Gnats.pm uses strict
+ok 941 - Bugzilla/Migrate/Gnats.pm uses warnings
+ok 942 - Bugzilla/CGI/ContentSecurityPolicy.pm requires Perl 5.14.0
+ok 943 - Bugzilla/CGI/ContentSecurityPolicy.pm uses strict
+ok 944 - Bugzilla/CGI/ContentSecurityPolicy.pm uses warnings
+ok 945 - Bugzilla/WebService/Group.pm requires Perl 5.14.0
+ok 946 - Bugzilla/WebService/Group.pm uses strict
+ok 947 - Bugzilla/WebService/Group.pm uses warnings
+ok 948 - Bugzilla/WebService/User.pm requires Perl 5.14.0
+ok 949 - Bugzilla/WebService/User.pm uses strict
+ok 950 - Bugzilla/WebService/User.pm uses warnings
+ok 951 - Bugzilla/WebService/Bugzilla.pm requires Perl 5.14.0
+ok 952 - Bugzilla/WebService/Bugzilla.pm uses strict
+ok 953 - Bugzilla/WebService/Bugzilla.pm uses warnings
+ok 954 - Bugzilla/WebService/Constants.pm requires Perl 5.14.0
+ok 955 - Bugzilla/WebService/Constants.pm uses strict
+ok 956 - Bugzilla/WebService/Constants.pm uses warnings
+ok 957 - Bugzilla/WebService/Bug.pm requires Perl 5.14.0
+ok 958 - Bugzilla/WebService/Bug.pm uses strict
+ok 959 - Bugzilla/WebService/Bug.pm uses warnings
+ok 960 - Bugzilla/WebService/Util.pm requires Perl 5.14.0
+ok 961 - Bugzilla/WebService/Util.pm uses strict
+ok 962 - Bugzilla/WebService/Util.pm uses warnings
+ok 963 - Bugzilla/WebService/FlagType.pm requires Perl 5.14.0
+ok 964 - Bugzilla/WebService/FlagType.pm uses strict
+ok 965 - Bugzilla/WebService/FlagType.pm uses warnings
+ok 966 - Bugzilla/WebService/Classification.pm requires Perl 5.14.0
+ok 967 - Bugzilla/WebService/Classification.pm uses strict
+ok 968 - Bugzilla/WebService/Classification.pm uses warnings
+ok 969 - Bugzilla/WebService/Server.pm requires Perl 5.14.0
+ok 970 - Bugzilla/WebService/Server.pm uses strict
+ok 971 - Bugzilla/WebService/Server.pm uses warnings
+ok 972 - Bugzilla/WebService/BugUserLastVisit.pm requires Perl 5.14.0
+ok 973 - Bugzilla/WebService/BugUserLastVisit.pm uses strict
+ok 974 - Bugzilla/WebService/BugUserLastVisit.pm uses warnings
+ok 975 - Bugzilla/WebService/Product.pm requires Perl 5.14.0
+ok 976 - Bugzilla/WebService/Product.pm uses strict
+ok 977 - Bugzilla/WebService/Product.pm uses warnings
+ok 978 - Bugzilla/WebService/Component.pm requires Perl 5.14.0
+ok 979 - Bugzilla/WebService/Component.pm uses strict
+ok 980 - Bugzilla/WebService/Component.pm uses warnings
+ok 981 - Bugzilla/WebService/Server/JSONRPC.pm requires Perl 5.14.0
+ok 982 - Bugzilla/WebService/Server/JSONRPC.pm uses strict
+ok 983 - Bugzilla/WebService/Server/JSONRPC.pm uses warnings
+ok 984 - Bugzilla/WebService/Server/XMLRPC.pm requires Perl 5.14.0
+ok 985 - Bugzilla/WebService/Server/XMLRPC.pm uses strict
+ok 986 - Bugzilla/WebService/Server/XMLRPC.pm uses warnings
+ok 987 - Bugzilla/Install/Filesystem.pm requires Perl 5.14.0
+ok 988 - Bugzilla/Install/Filesystem.pm uses strict
+ok 989 - Bugzilla/Install/Filesystem.pm uses warnings
+ok 990 - Bugzilla/Install/DB.pm requires Perl 5.14.0
+ok 991 - Bugzilla/Install/DB.pm uses strict
+ok 992 - Bugzilla/Install/DB.pm uses warnings
+ok 993 - Bugzilla/Install/Util.pm requires Perl 5.14.0
+ok 994 - Bugzilla/Install/Util.pm uses strict
+ok 995 - Bugzilla/Install/Util.pm uses warnings
+ok 996 - Bugzilla/Install/Requirements.pm requires Perl 5.14.0
+ok 997 - Bugzilla/Install/Requirements.pm uses strict
+ok 998 - Bugzilla/Install/Requirements.pm uses warnings
+ok 999 - Bugzilla/Install/Localconfig.pm requires Perl 5.14.0
+ok 1000 - Bugzilla/Install/Localconfig.pm uses strict
+ok 1001 - Bugzilla/Install/Localconfig.pm uses warnings
+ok 1002 - Bugzilla/DB/Oracle.pm requires Perl 5.14.0
+ok 1003 - Bugzilla/DB/Oracle.pm uses strict
+ok 1004 - Bugzilla/DB/Oracle.pm uses warnings
+ok 1005 - Bugzilla/DB/Sqlite.pm requires Perl 5.14.0
+ok 1006 - Bugzilla/DB/Sqlite.pm uses strict
+ok 1007 - Bugzilla/DB/Sqlite.pm uses warnings
+ok 1008 - Bugzilla/DB/Pg.pm requires Perl 5.14.0
+ok 1009 - Bugzilla/DB/Pg.pm uses strict
+ok 1010 - Bugzilla/DB/Pg.pm uses warnings
+ok 1011 - Bugzilla/DB/Schema.pm requires Perl 5.14.0
+ok 1012 - Bugzilla/DB/Schema.pm uses strict
+ok 1013 - Bugzilla/DB/Schema.pm uses warnings
+ok 1014 - Bugzilla/DB/Mysql.pm requires Perl 5.14.0
+ok 1015 - Bugzilla/DB/Mysql.pm uses strict
+ok 1016 - Bugzilla/DB/Mysql.pm uses warnings
+ok 1017 - Bugzilla/DB/Schema/Oracle.pm requires Perl 5.14.0
+ok 1018 - Bugzilla/DB/Schema/Oracle.pm uses strict
+ok 1019 - Bugzilla/DB/Schema/Oracle.pm uses warnings
+ok 1020 - Bugzilla/DB/Schema/Sqlite.pm requires Perl 5.14.0
+ok 1021 - Bugzilla/DB/Schema/Sqlite.pm uses strict
+ok 1022 - Bugzilla/DB/Schema/Sqlite.pm uses warnings
+ok 1023 - Bugzilla/DB/Schema/Pg.pm requires Perl 5.14.0
+ok 1024 - Bugzilla/DB/Schema/Pg.pm uses strict
+ok 1025 - Bugzilla/DB/Schema/Pg.pm uses warnings
+ok 1026 - Bugzilla/DB/Schema/Mysql.pm requires Perl 5.14.0
+ok 1027 - Bugzilla/DB/Schema/Mysql.pm uses strict
+ok 1028 - Bugzilla/DB/Schema/Mysql.pm uses warnings
+ok 1029 - Bugzilla/BugUrl/Bugzilla.pm requires Perl 5.14.0
+ok 1030 - Bugzilla/BugUrl/Bugzilla.pm uses strict
+ok 1031 - Bugzilla/BugUrl/Bugzilla.pm uses warnings
+ok 1032 - Bugzilla/BugUrl/JIRA.pm requires Perl 5.14.0
+ok 1033 - Bugzilla/BugUrl/JIRA.pm uses strict
+ok 1034 - Bugzilla/BugUrl/JIRA.pm uses warnings
+ok 1035 - Bugzilla/BugUrl/SourceForge.pm requires Perl 5.14.0
+ok 1036 - Bugzilla/BugUrl/SourceForge.pm uses strict
+ok 1037 - Bugzilla/BugUrl/SourceForge.pm uses warnings
+ok 1038 - Bugzilla/BugUrl/Trac.pm requires Perl 5.14.0
+ok 1039 - Bugzilla/BugUrl/Trac.pm uses strict
+ok 1040 - Bugzilla/BugUrl/Trac.pm uses warnings
+ok 1041 - Bugzilla/BugUrl/Launchpad.pm requires Perl 5.14.0
+ok 1042 - Bugzilla/BugUrl/Launchpad.pm uses strict
+ok 1043 - Bugzilla/BugUrl/Launchpad.pm uses warnings
+ok 1044 - Bugzilla/BugUrl/Debian.pm requires Perl 5.14.0
+ok 1045 - Bugzilla/BugUrl/Debian.pm uses strict
+ok 1046 - Bugzilla/BugUrl/Debian.pm uses warnings
+ok 1047 - Bugzilla/BugUrl/MantisBT.pm requires Perl 5.14.0
+ok 1048 - Bugzilla/BugUrl/MantisBT.pm uses strict
+ok 1049 - Bugzilla/BugUrl/MantisBT.pm uses warnings
+ok 1050 - Bugzilla/BugUrl/Google.pm requires Perl 5.14.0
+ok 1051 - Bugzilla/BugUrl/Google.pm uses strict
+ok 1052 - Bugzilla/BugUrl/Google.pm uses warnings
+ok 1053 - Bugzilla/BugUrl/GitHub.pm requires Perl 5.14.0
+ok 1054 - Bugzilla/BugUrl/GitHub.pm uses strict
+ok 1055 - Bugzilla/BugUrl/GitHub.pm uses warnings
+ok 1056 - Bugzilla/BugUrl/Bugzilla/Local.pm requires Perl 5.14.0
+ok 1057 - Bugzilla/BugUrl/Bugzilla/Local.pm uses strict
+ok 1058 - Bugzilla/BugUrl/Bugzilla/Local.pm uses warnings
+ok 1059 - Bugzilla/Config/Attachment.pm requires Perl 5.14.0
+ok 1060 - Bugzilla/Config/Attachment.pm uses strict
+ok 1061 - Bugzilla/Config/Attachment.pm uses warnings
+ok 1062 - Bugzilla/Config/BugFields.pm requires Perl 5.14.0
+ok 1063 - Bugzilla/Config/BugFields.pm uses strict
+ok 1064 - Bugzilla/Config/BugFields.pm uses warnings
+ok 1065 - Bugzilla/Config/Auth.pm requires Perl 5.14.0
+ok 1066 - Bugzilla/Config/Auth.pm uses strict
+ok 1067 - Bugzilla/Config/Auth.pm uses warnings
+ok 1068 - Bugzilla/Config/Advanced.pm requires Perl 5.14.0
+ok 1069 - Bugzilla/Config/Advanced.pm uses strict
+ok 1070 - Bugzilla/Config/Advanced.pm uses warnings
+ok 1071 - Bugzilla/Config/General.pm requires Perl 5.14.0
+ok 1072 - Bugzilla/Config/General.pm uses strict
+ok 1073 - Bugzilla/Config/General.pm uses warnings
+ok 1074 - Bugzilla/Config/GroupSecurity.pm requires Perl 5.14.0
+ok 1075 - Bugzilla/Config/GroupSecurity.pm uses strict
+ok 1076 - Bugzilla/Config/GroupSecurity.pm uses warnings
+ok 1077 - Bugzilla/Config/ShadowDB.pm requires Perl 5.14.0
+ok 1078 - Bugzilla/Config/ShadowDB.pm uses strict
+ok 1079 - Bugzilla/Config/ShadowDB.pm uses warnings
+ok 1080 - Bugzilla/Config/RADIUS.pm requires Perl 5.14.0
+ok 1081 - Bugzilla/Config/RADIUS.pm uses strict
+ok 1082 - Bugzilla/Config/RADIUS.pm uses warnings
+ok 1083 - Bugzilla/Config/LDAP.pm requires Perl 5.14.0
+ok 1084 - Bugzilla/Config/LDAP.pm uses strict
+ok 1085 - Bugzilla/Config/LDAP.pm uses warnings
+ok 1086 - Bugzilla/Config/Common.pm requires Perl 5.14.0
+ok 1087 - Bugzilla/Config/Common.pm uses strict
+ok 1088 - Bugzilla/Config/Common.pm uses warnings
+ok 1089 - Bugzilla/Config/UserMatch.pm requires Perl 5.14.0
+ok 1090 - Bugzilla/Config/UserMatch.pm uses strict
+ok 1091 - Bugzilla/Config/UserMatch.pm uses warnings
+ok 1092 - Bugzilla/Config/Memcached.pm requires Perl 5.14.0
+ok 1093 - Bugzilla/Config/Memcached.pm uses strict
+ok 1094 - Bugzilla/Config/Memcached.pm uses warnings
+ok 1095 - Bugzilla/Config/Admin.pm requires Perl 5.14.0
+ok 1096 - Bugzilla/Config/Admin.pm uses strict
+ok 1097 - Bugzilla/Config/Admin.pm uses warnings
+ok 1098 - Bugzilla/Config/BugChange.pm requires Perl 5.14.0
+ok 1099 - Bugzilla/Config/BugChange.pm uses strict
+ok 1100 - Bugzilla/Config/BugChange.pm uses warnings
+ok 1101 - Bugzilla/Config/Query.pm requires Perl 5.14.0
+ok 1102 - Bugzilla/Config/Query.pm uses strict
+ok 1103 - Bugzilla/Config/Query.pm uses warnings
+ok 1104 - Bugzilla/Config/Core.pm requires Perl 5.14.0
+ok 1105 - Bugzilla/Config/Core.pm uses strict
+ok 1106 - Bugzilla/Config/Core.pm uses warnings
+ok 1107 - Bugzilla/Config/MTA.pm requires Perl 5.14.0
+ok 1108 - Bugzilla/Config/MTA.pm uses strict
+ok 1109 - Bugzilla/Config/MTA.pm uses warnings
+ok 1110 - Bugzilla/Template/Context.pm requires Perl 5.14.0
+ok 1111 - Bugzilla/Template/Context.pm uses strict
+ok 1112 - Bugzilla/Template/Context.pm uses warnings
+ok 1113 - Bugzilla/Template/Plugin/Bugzilla.pm requires Perl 5.14.0
+ok 1114 - Bugzilla/Template/Plugin/Bugzilla.pm uses strict
+ok 1115 - Bugzilla/Template/Plugin/Bugzilla.pm uses warnings
+ok 1116 - Bugzilla/Template/Plugin/Hook.pm requires Perl 5.14.0
+ok 1117 - Bugzilla/Template/Plugin/Hook.pm uses strict
+ok 1118 - Bugzilla/Template/Plugin/Hook.pm uses warnings
+ok 1119 - Bugzilla/Sender/Transport/Sendmail.pm requires Perl 5.14.0
+ok 1120 - Bugzilla/Sender/Transport/Sendmail.pm uses strict
+ok 1121 - Bugzilla/Sender/Transport/Sendmail.pm uses warnings
+ok 1122 - Bugzilla/Search/Condition.pm requires Perl 5.14.0
+ok 1123 - Bugzilla/Search/Condition.pm uses strict
+ok 1124 - Bugzilla/Search/Condition.pm uses warnings
+ok 1125 - Bugzilla/Search/Clause.pm requires Perl 5.14.0
+ok 1126 - Bugzilla/Search/Clause.pm uses strict
+ok 1127 - Bugzilla/Search/Clause.pm uses warnings
+ok 1128 - Bugzilla/Search/Saved.pm requires Perl 5.14.0
+ok 1129 - Bugzilla/Search/Saved.pm uses strict
+ok 1130 - Bugzilla/Search/Saved.pm uses warnings
+ok 1131 - Bugzilla/Search/Quicksearch.pm requires Perl 5.14.0
+ok 1132 - Bugzilla/Search/Quicksearch.pm uses strict
+ok 1133 - Bugzilla/Search/Quicksearch.pm uses warnings
+ok 1134 - Bugzilla/Search/ClauseGroup.pm requires Perl 5.14.0
+ok 1135 - Bugzilla/Search/ClauseGroup.pm uses strict
+ok 1136 - Bugzilla/Search/ClauseGroup.pm uses warnings
+ok 1137 - Bugzilla/Search/Recent.pm requires Perl 5.14.0
+ok 1138 - Bugzilla/Search/Recent.pm uses strict
+ok 1139 - Bugzilla/Search/Recent.pm uses warnings
+ok 1140 - Bugzilla/Field/ChoiceInterface.pm requires Perl 5.14.0
+ok 1141 - Bugzilla/Field/ChoiceInterface.pm uses strict
+ok 1142 - Bugzilla/Field/ChoiceInterface.pm uses warnings
+ok 1143 - Bugzilla/Field/Choice.pm requires Perl 5.14.0
+ok 1144 - Bugzilla/Field/Choice.pm uses strict
+ok 1145 - Bugzilla/Field/Choice.pm uses warnings
+ok 1146 - Bugzilla/Whine/Schedule.pm requires Perl 5.14.0
+ok 1147 - Bugzilla/Whine/Schedule.pm uses strict
+ok 1148 - Bugzilla/Whine/Schedule.pm uses warnings
+ok 1149 - Bugzilla/Whine/Query.pm requires Perl 5.14.0
+ok 1150 - Bugzilla/Whine/Query.pm uses strict
+ok 1151 - Bugzilla/Whine/Query.pm uses warnings
+ok 1152 - Bugzilla/Job/Mailer.pm requires Perl 5.14.0
+ok 1153 - Bugzilla/Job/Mailer.pm uses strict
+ok 1154 - Bugzilla/Job/Mailer.pm uses warnings
+ok 1155 - Bugzilla/Job/BugMail.pm requires Perl 5.14.0
+ok 1156 - Bugzilla/Job/BugMail.pm uses strict
+ok 1157 - Bugzilla/Job/BugMail.pm uses warnings
+ok 1158 - Bugzilla/Attachment/PatchReader.pm requires Perl 5.14.0
+ok 1159 - Bugzilla/Attachment/PatchReader.pm uses strict
+ok 1160 - Bugzilla/Attachment/PatchReader.pm uses warnings
+ok 1161 - Bugzilla/Auth/Login.pm requires Perl 5.14.0
+ok 1162 - Bugzilla/Auth/Login.pm uses strict
+ok 1163 - Bugzilla/Auth/Login.pm uses warnings
+ok 1164 - Bugzilla/Auth/Verify.pm requires Perl 5.14.0
+ok 1165 - Bugzilla/Auth/Verify.pm uses strict
+ok 1166 - Bugzilla/Auth/Verify.pm uses warnings
+ok 1167 - Bugzilla/Auth/Persist/Cookie.pm requires Perl 5.14.0
+ok 1168 - Bugzilla/Auth/Persist/Cookie.pm uses strict
+ok 1169 - Bugzilla/Auth/Persist/Cookie.pm uses warnings
+ok 1170 - Bugzilla/Auth/Login/CGI.pm requires Perl 5.14.0
+ok 1171 - Bugzilla/Auth/Login/CGI.pm uses strict
+ok 1172 - Bugzilla/Auth/Login/CGI.pm uses warnings
+ok 1173 - Bugzilla/Auth/Login/Env.pm requires Perl 5.14.0
+ok 1174 - Bugzilla/Auth/Login/Env.pm uses strict
+ok 1175 - Bugzilla/Auth/Login/Env.pm uses warnings
+ok 1176 - Bugzilla/Auth/Login/Stack.pm requires Perl 5.14.0
+ok 1177 - Bugzilla/Auth/Login/Stack.pm uses strict
+ok 1178 - Bugzilla/Auth/Login/Stack.pm uses warnings
+ok 1179 - Bugzilla/Auth/Login/Cookie.pm requires Perl 5.14.0
+ok 1180 - Bugzilla/Auth/Login/Cookie.pm uses strict
+ok 1181 - Bugzilla/Auth/Login/Cookie.pm uses warnings
+ok 1182 - Bugzilla/Auth/Login/APIKey.pm requires Perl 5.14.0
+ok 1183 - Bugzilla/Auth/Login/APIKey.pm uses strict
+ok 1184 - Bugzilla/Auth/Login/APIKey.pm uses warnings
+ok 1185 - Bugzilla/Auth/Verify/DB.pm requires Perl 5.14.0
+ok 1186 - Bugzilla/Auth/Verify/DB.pm uses strict
+ok 1187 - Bugzilla/Auth/Verify/DB.pm uses warnings
+ok 1188 - Bugzilla/Auth/Verify/RADIUS.pm requires Perl 5.14.0
+ok 1189 - Bugzilla/Auth/Verify/RADIUS.pm uses strict
+ok 1190 - Bugzilla/Auth/Verify/RADIUS.pm uses warnings
+ok 1191 - Bugzilla/Auth/Verify/LDAP.pm requires Perl 5.14.0
+ok 1192 - Bugzilla/Auth/Verify/LDAP.pm uses strict
+ok 1193 - Bugzilla/Auth/Verify/LDAP.pm uses warnings
+ok 1194 - Bugzilla/Auth/Verify/Stack.pm requires Perl 5.14.0
+ok 1195 - Bugzilla/Auth/Verify/Stack.pm uses strict
+ok 1196 - Bugzilla/Auth/Verify/Stack.pm uses warnings
+ok 1197 - docs/lib/Pod/Simple/HTMLBatch/Bugzilla.pm requires Perl 5.14.0
+ok 1198 - docs/lib/Pod/Simple/HTMLBatch/Bugzilla.pm uses strict
+ok 1199 - docs/lib/Pod/Simple/HTMLBatch/Bugzilla.pm uses warnings
+ok 1200 - docs/lib/Pod/Simple/HTML/Bugzilla.pm requires Perl 5.14.0
+ok 1201 - docs/lib/Pod/Simple/HTML/Bugzilla.pm uses strict
+ok 1202 - docs/lib/Pod/Simple/HTML/Bugzilla.pm uses warnings
+ok 1203 - extensions/create.pl requires Perl 5.14.0
+ok 1204 - extensions/create.pl uses strict
+ok 1205 - extensions/create.pl uses warnings
+ok 1206 - docs/makedocs.pl requires Perl 5.14.0
+ok 1207 - docs/makedocs.pl uses strict
+ok 1208 - docs/makedocs.pl uses warnings
+ok 1209 - t/001compile.t uses Throw*Error calls correctly
+ok 1210 - t/002goodperl.t uses Throw*Error calls correctly
+ok 1211 - t/004template.t uses Throw*Error calls correctly
+ok 1212 - t/005whitespace.t uses Throw*Error calls correctly
+ok 1213 - t/006spellcheck.t uses Throw*Error calls correctly
+ok 1214 - t/007util.t uses Throw*Error calls correctly
+ok 1215 - t/008filter.t uses Throw*Error calls correctly
+ok 1216 - t/009bugwords.t uses Throw*Error calls correctly
+ok 1217 - t/010dependencies.t uses Throw*Error calls correctly
+ok 1218 - t/011pod.t uses Throw*Error calls correctly
+ok 1219 - t/012throwables.t uses Throw*Error calls correctly
+ok 1220 - t/013dbschema.t uses Throw*Error calls correctly
+ok 1221 - t/014critic-core.t uses Throw*Error calls correctly
+ok 1222 - t/015remote_ip.t uses Throw*Error calls correctly
+ok 1223 - t/016csp.t uses Throw*Error calls correctly
+ok 1224 - t/100markdown.t uses Throw*Error calls correctly
+ok 1225 - xt/rest/bugzilla.t uses Throw*Error calls correctly
+ok 1226 - xt/rest/classification.t uses Throw*Error calls correctly
+ok 1227 - xt/selenium/bug_edit.t uses Throw*Error calls correctly
+ok 1228 - xt/selenium/choose_priority.t uses Throw*Error calls correctly
+ok 1229 - xt/selenium/classifications.t uses Throw*Error calls correctly
+ok 1230 - xt/selenium/config.t uses Throw*Error calls correctly
+ok 1231 - xt/selenium/create_user_accounts.t uses Throw*Error calls correctly
+ok 1232 - xt/selenium/custom_fields.t uses Throw*Error calls correctly
+ok 1233 - xt/selenium/custom_fields_admin.t uses Throw*Error calls correctly
+ok 1234 - xt/selenium/dependencies.t uses Throw*Error calls correctly
+ok 1235 - xt/selenium/edit_products_properties.t uses Throw*Error calls correctly
+ok 1236 - xt/selenium/email_preferences.t uses Throw*Error calls correctly
+ok 1237 - xt/selenium/enter_new_bug.t uses Throw*Error calls correctly
+ok 1238 - xt/selenium/flags.t uses Throw*Error calls correctly
+ok 1239 - xt/selenium/flags2.t uses Throw*Error calls correctly
+ok 1240 - xt/selenium/groups.t uses Throw*Error calls correctly
+ok 1241 - xt/selenium/keywords.t uses Throw*Error calls correctly
+ok 1242 - xt/selenium/login.t uses Throw*Error calls correctly
+ok 1243 - xt/selenium/milestones.t uses Throw*Error calls correctly
+ok 1244 - xt/selenium/password_complexity.t uses Throw*Error calls correctly
+ok 1245 - xt/selenium/private_attachments.t uses Throw*Error calls correctly
+ok 1246 - xt/selenium/qa_contact.t uses Throw*Error calls correctly
+ok 1247 - xt/selenium/require_login.t uses Throw*Error calls correctly
+ok 1248 - xt/selenium/sanity_check.t uses Throw*Error calls correctly
+ok 1249 - xt/selenium/saved_searches.t uses Throw*Error calls correctly
+ok 1250 - xt/selenium/search.t uses Throw*Error calls correctly
+ok 1251 - xt/selenium/security.t uses Throw*Error calls correctly
+ok 1252 - xt/selenium/shared_searches.t uses Throw*Error calls correctly
+ok 1253 - xt/selenium/show_all_products.t uses Throw*Error calls correctly
+ok 1254 - xt/selenium/shutdown.t uses Throw*Error calls correctly
+ok 1255 - xt/selenium/status_whiteboard.t uses Throw*Error calls correctly
+ok 1256 - xt/selenium/strict_isolation.t uses Throw*Error calls correctly
+ok 1257 - xt/selenium/sudo_sessions.t uses Throw*Error calls correctly
+ok 1258 - xt/selenium/target_milestones.t uses Throw*Error calls correctly
+ok 1259 - xt/selenium/time_summary.t uses Throw*Error calls correctly
+ok 1260 - xt/selenium/user_groups.t uses Throw*Error calls correctly
+ok 1261 - xt/selenium/user_matching.t uses Throw*Error calls correctly
+ok 1262 - xt/selenium/user_preferences.t uses Throw*Error calls correctly
+ok 1263 - xt/selenium/user_privs.t uses Throw*Error calls correctly
+ok 1264 - xt/selenium/votes.t uses Throw*Error calls correctly
+ok 1265 - xt/webservice/bug_add_attachment.t uses Throw*Error calls correctly
+ok 1266 - xt/webservice/bug_add_comment.t uses Throw*Error calls correctly
+ok 1267 - xt/webservice/bug_attachments.t uses Throw*Error calls correctly
+ok 1268 - xt/webservice/bug_comments.t uses Throw*Error calls correctly
+ok 1269 - xt/webservice/bug_create.t uses Throw*Error calls correctly
+ok 1270 - xt/webservice/bug_fields.t uses Throw*Error calls correctly
+ok 1271 - xt/webservice/bug_get.t uses Throw*Error calls correctly
+ok 1272 - xt/webservice/bug_history.t uses Throw*Error calls correctly
+ok 1273 - xt/webservice/bug_legal_values.t uses Throw*Error calls correctly
+ok 1274 - xt/webservice/bug_search.t uses Throw*Error calls correctly
+ok 1275 - xt/webservice/bug_update.t uses Throw*Error calls correctly
+ok 1276 - xt/webservice/bug_update_see_also.t uses Throw*Error calls correctly
+ok 1277 - xt/webservice/bugzilla.t uses Throw*Error calls correctly
+ok 1278 - xt/webservice/group_create.t uses Throw*Error calls correctly
+ok 1279 - xt/webservice/jsonp.t uses Throw*Error calls correctly
+ok 1280 - xt/webservice/product_create.t uses Throw*Error calls correctly
+ok 1281 - xt/webservice/product_get.t uses Throw*Error calls correctly
+ok 1282 - xt/webservice/user_create.t uses Throw*Error calls correctly
+ok 1283 - xt/webservice/user_get.t uses Throw*Error calls correctly
+ok 1284 - xt/webservice/user_login_logout.t uses Throw*Error calls correctly
+ok 1285 - xt/webservice/user_offer_account_by_email.t uses Throw*Error calls correctly
+ok 1286 - admin.cgi uses Throw*Error calls correctly
+ok 1287 - app.psgi uses Throw*Error calls correctly
+ok 1288 - attachment.cgi uses Throw*Error calls correctly
+ok 1289 - auth.cgi uses Throw*Error calls correctly
+ok 1290 - buglist.cgi uses Throw*Error calls correctly
+ok 1291 - Bugzilla.pm uses Throw*Error calls correctly
+ok 1292 - chart.cgi uses Throw*Error calls correctly
+ok 1293 - checksetup.pl uses Throw*Error calls correctly
+ok 1294 - clean-bug-user-last-visit.pl uses Throw*Error calls correctly
+ok 1295 - colchange.cgi uses Throw*Error calls correctly
+ok 1296 - collectstats.pl uses Throw*Error calls correctly
+ok 1297 - config.cgi uses Throw*Error calls correctly
+ok 1298 - createaccount.cgi uses Throw*Error calls correctly
+ok 1299 - describecomponents.cgi uses Throw*Error calls correctly
+ok 1300 - describekeywords.cgi uses Throw*Error calls correctly
+ok 1301 - duplicates.cgi uses Throw*Error calls correctly
+ok 1302 - editclassifications.cgi uses Throw*Error calls correctly
+ok 1303 - editcomponents.cgi uses Throw*Error calls correctly
+ok 1304 - editfields.cgi uses Throw*Error calls correctly
+ok 1305 - editflagtypes.cgi uses Throw*Error calls correctly
+ok 1306 - editgroups.cgi uses Throw*Error calls correctly
+ok 1307 - editkeywords.cgi uses Throw*Error calls correctly
+ok 1308 - editmilestones.cgi uses Throw*Error calls correctly
+ok 1309 - editparams.cgi uses Throw*Error calls correctly
+ok 1310 - editproducts.cgi uses Throw*Error calls correctly
+ok 1311 - editsettings.cgi uses Throw*Error calls correctly
+ok 1312 - editusers.cgi uses Throw*Error calls correctly
+ok 1313 - editvalues.cgi uses Throw*Error calls correctly
+ok 1314 - editversions.cgi uses Throw*Error calls correctly
+ok 1315 - editwhines.cgi uses Throw*Error calls correctly
+ok 1316 - editworkflow.cgi uses Throw*Error calls correctly
+ok 1317 - email_in.pl uses Throw*Error calls correctly
+ok 1318 - enter_bug.cgi uses Throw*Error calls correctly
+ok 1319 - gen-cpanfile.pl uses Throw*Error calls correctly
+ok 1320 - importxml.pl uses Throw*Error calls correctly
+ok 1321 - index.cgi uses Throw*Error calls correctly
+ok 1322 - jobqueue.pl uses Throw*Error calls correctly
+ok 1323 - jsonrpc.cgi uses Throw*Error calls correctly
+ok 1324 - migrate.pl uses Throw*Error calls correctly
+ok 1325 - mod_perl.pl uses Throw*Error calls correctly
+ok 1326 - page.cgi uses Throw*Error calls correctly
+ok 1327 - post_bug.cgi uses Throw*Error calls correctly
+ok 1328 - process_bug.cgi uses Throw*Error calls correctly
+ok 1329 - query.cgi uses Throw*Error calls correctly
+ok 1330 - quips.cgi uses Throw*Error calls correctly
+ok 1331 - relogin.cgi uses Throw*Error calls correctly
+ok 1332 - report.cgi uses Throw*Error calls correctly
+ok 1333 - reports.cgi uses Throw*Error calls correctly
+ok 1334 - request.cgi uses Throw*Error calls correctly
+ok 1335 - rest.cgi uses Throw*Error calls correctly
+ok 1336 - sanitycheck.cgi uses Throw*Error calls correctly
+ok 1337 - sanitycheck.pl uses Throw*Error calls correctly
+ok 1338 - search_plugin.cgi uses Throw*Error calls correctly
+ok 1339 - show_activity.cgi uses Throw*Error calls correctly
+ok 1340 - show_bug.cgi uses Throw*Error calls correctly
+ok 1341 - showdependencygraph.cgi uses Throw*Error calls correctly
+ok 1342 - showdependencytree.cgi uses Throw*Error calls correctly
+ok 1343 - shutdown.cgi uses Throw*Error calls correctly
+ok 1344 - summarize_time.cgi uses Throw*Error calls correctly
+ok 1345 - testagent.cgi uses Throw*Error calls correctly
+ok 1346 - testserver.pl uses Throw*Error calls correctly
+ok 1347 - token.cgi uses Throw*Error calls correctly
+ok 1348 - userprefs.cgi uses Throw*Error calls correctly
+ok 1349 - view_job_queue.cgi uses Throw*Error calls correctly
+ok 1350 - votes.cgi uses Throw*Error calls correctly
+ok 1351 - whine.pl uses Throw*Error calls correctly
+ok 1352 - whineatnews.pl uses Throw*Error calls correctly
+ok 1353 - xmlrpc.cgi uses Throw*Error calls correctly
+ok 1354 - Bugzilla/Group.pm uses Throw*Error calls correctly
+ok 1355 - Bugzilla/User.pm uses Throw*Error calls correctly
+ok 1356 - Bugzilla/Attachment.pm uses Throw*Error calls correctly
+ok 1357 - Bugzilla/Version.pm uses Throw*Error calls correctly
+ok 1358 - Bugzilla/Template.pm uses Throw*Error calls correctly
+ok 1359 - Bugzilla/Auth.pm uses Throw*Error calls correctly
+ok 1360 - Bugzilla/RNG.pm uses Throw*Error calls correctly
+ok 1361 - Bugzilla/WebService.pm uses Throw*Error calls correctly
+ok 1362 - Bugzilla/DB.pm uses Throw*Error calls correctly
+ok 1363 - Bugzilla/Update.pm uses Throw*Error calls correctly
+ok 1364 - Bugzilla/Search.pm uses Throw*Error calls correctly
+ok 1365 - Bugzilla/BugUrl.pm uses Throw*Error calls correctly
+ok 1366 - Bugzilla/Constants.pm uses Throw*Error calls correctly
+ok 1367 - Bugzilla/CGI.pm uses Throw*Error calls correctly
+ok 1368 - Bugzilla/Bug.pm uses Throw*Error calls correctly
+ok 1369 - Bugzilla/Markdown.pm uses Throw*Error calls correctly
+ok 1370 - Bugzilla/Extension.pm uses Throw*Error calls correctly
+ok 1371 - Bugzilla/Config.pm uses Throw*Error calls correctly
+ok 1372 - Bugzilla/JobQueue.pm uses Throw*Error calls correctly
+ok 1373 - Bugzilla/Util.pm uses Throw*Error calls correctly
+ok 1374 - Bugzilla/FlagType.pm uses Throw*Error calls correctly
+ok 1375 - Bugzilla/Hook.pm uses Throw*Error calls correctly
+ok 1376 - Bugzilla/Object.pm uses Throw*Error calls correctly
+ok 1377 - Bugzilla/Series.pm uses Throw*Error calls correctly
+ok 1378 - Bugzilla/Install.pm uses Throw*Error calls correctly
+ok 1379 - Bugzilla/Token.pm uses Throw*Error calls correctly
+ok 1380 - Bugzilla/Classification.pm uses Throw*Error calls correctly
+ok 1381 - Bugzilla/Comment.pm uses Throw*Error calls correctly
+ok 1382 - Bugzilla/BugUserLastVisit.pm uses Throw*Error calls correctly
+ok 1383 - Bugzilla/Field.pm uses Throw*Error calls correctly
+ok 1384 - Bugzilla/Report.pm uses Throw*Error calls correctly
+ok 1385 - Bugzilla/Product.pm uses Throw*Error calls correctly
+ok 1386 - Bugzilla/Status.pm uses Throw*Error calls correctly
+ok 1387 - Bugzilla/Flag.pm uses Throw*Error calls correctly
+ok 1388 - Bugzilla/Keyword.pm uses Throw*Error calls correctly
+ok 1389 - Bugzilla/Component.pm uses Throw*Error calls correctly
+ok 1390 - Bugzilla/Milestone.pm uses Throw*Error calls correctly
+ok 1391 - Bugzilla/Memcached.pm uses Throw*Error calls correctly
+ok 1392 - Bugzilla/MIME.pm uses Throw*Error calls correctly
+ok 1393 - Bugzilla/Chart.pm uses Throw*Error calls correctly
+ok 1394 - Bugzilla/Whine.pm uses Throw*Error calls correctly
+ok 1395 - Bugzilla/UserAgent.pm uses Throw*Error calls correctly
+ok 1396 - Bugzilla/Mailer.pm uses Throw*Error calls correctly
+ok 1397 - Bugzilla/Migrate.pm uses Throw*Error calls correctly
+ok 1398 - Bugzilla/BugMail.pm uses Throw*Error calls correctly
+ok 1399 - Bugzilla/Error.pm uses Throw*Error calls correctly
+ok 1400 - Bugzilla/User/Setting.pm uses Throw*Error calls correctly
+ok 1401 - Bugzilla/User/APIKey.pm uses Throw*Error calls correctly
+ok 1402 - Bugzilla/User/Setting/Timezone.pm uses Throw*Error calls correctly
+ok 1403 - Bugzilla/User/Setting/Lang.pm uses Throw*Error calls correctly
+ok 1404 - Bugzilla/User/Setting/Skin.pm uses Throw*Error calls correctly
+ok 1405 - Bugzilla/API/Server.pm uses Throw*Error calls correctly
+ok 1406 - Bugzilla/API/1_0/Constants.pm uses Throw*Error calls correctly
+ok 1407 - Bugzilla/API/1_0/Util.pm uses Throw*Error calls correctly
+ok 1408 - Bugzilla/API/1_0/Server.pm uses Throw*Error calls correctly
+ok 1409 - Bugzilla/API/1_0/Resource.pm uses Throw*Error calls correctly
+ok 1410 - Bugzilla/API/1_0/Resource/Group.pm uses Throw*Error calls correctly
+ok 1411 - Bugzilla/API/1_0/Resource/User.pm uses Throw*Error calls correctly
+ok 1412 - Bugzilla/API/1_0/Resource/Bugzilla.pm uses Throw*Error calls correctly
+ok 1413 - Bugzilla/API/1_0/Resource/Bug.pm uses Throw*Error calls correctly
+ok 1414 - Bugzilla/API/1_0/Resource/FlagType.pm uses Throw*Error calls correctly
+ok 1415 - Bugzilla/API/1_0/Resource/Classification.pm uses Throw*Error calls correctly
+ok 1416 - Bugzilla/API/1_0/Resource/BugUserLastVisit.pm uses Throw*Error calls correctly
+ok 1417 - Bugzilla/API/1_0/Resource/Product.pm uses Throw*Error calls correctly
+ok 1418 - Bugzilla/API/1_0/Resource/Component.pm uses Throw*Error calls correctly
+ok 1419 - Bugzilla/Comment/TagWeights.pm uses Throw*Error calls correctly
+ok 1420 - Bugzilla/JobQueue/Runner.pm uses Throw*Error calls correctly
+ok 1421 - Bugzilla/Migrate/Gnats.pm uses Throw*Error calls correctly
+ok 1422 - Bugzilla/CGI/ContentSecurityPolicy.pm uses Throw*Error calls correctly
+ok 1423 - Bugzilla/WebService/Group.pm uses Throw*Error calls correctly
+ok 1424 - Bugzilla/WebService/User.pm uses Throw*Error calls correctly
+ok 1425 - Bugzilla/WebService/Bugzilla.pm uses Throw*Error calls correctly
+ok 1426 - Bugzilla/WebService/Constants.pm uses Throw*Error calls correctly
+ok 1427 - Bugzilla/WebService/Bug.pm uses Throw*Error calls correctly
+ok 1428 - Bugzilla/WebService/Util.pm uses Throw*Error calls correctly
+ok 1429 - Bugzilla/WebService/FlagType.pm uses Throw*Error calls correctly
+ok 1430 - Bugzilla/WebService/Classification.pm uses Throw*Error calls correctly
+ok 1431 - Bugzilla/WebService/Server.pm uses Throw*Error calls correctly
+ok 1432 - Bugzilla/WebService/BugUserLastVisit.pm uses Throw*Error calls correctly
+ok 1433 - Bugzilla/WebService/Product.pm uses Throw*Error calls correctly
+ok 1434 - Bugzilla/WebService/Component.pm uses Throw*Error calls correctly
+ok 1435 - Bugzilla/WebService/Server/JSONRPC.pm uses Throw*Error calls correctly
+ok 1436 - Bugzilla/WebService/Server/XMLRPC.pm uses Throw*Error calls correctly
+ok 1437 - Bugzilla/Install/Filesystem.pm uses Throw*Error calls correctly
+ok 1438 - Bugzilla/Install/DB.pm uses Throw*Error calls correctly
+ok 1439 - Bugzilla/Install/Util.pm uses Throw*Error calls correctly
+ok 1440 - Bugzilla/Install/Requirements.pm uses Throw*Error calls correctly
+ok 1441 - Bugzilla/Install/Localconfig.pm uses Throw*Error calls correctly
+ok 1442 - Bugzilla/DB/Oracle.pm uses Throw*Error calls correctly
+ok 1443 - Bugzilla/DB/Sqlite.pm uses Throw*Error calls correctly
+ok 1444 - Bugzilla/DB/Pg.pm uses Throw*Error calls correctly
+ok 1445 - Bugzilla/DB/Schema.pm uses Throw*Error calls correctly
+ok 1446 - Bugzilla/DB/Mysql.pm uses Throw*Error calls correctly
+ok 1447 - Bugzilla/DB/Schema/Oracle.pm uses Throw*Error calls correctly
+ok 1448 - Bugzilla/DB/Schema/Sqlite.pm uses Throw*Error calls correctly
+ok 1449 - Bugzilla/DB/Schema/Pg.pm uses Throw*Error calls correctly
+ok 1450 - Bugzilla/DB/Schema/Mysql.pm uses Throw*Error calls correctly
+ok 1451 - Bugzilla/BugUrl/Bugzilla.pm uses Throw*Error calls correctly
+ok 1452 - Bugzilla/BugUrl/JIRA.pm uses Throw*Error calls correctly
+ok 1453 - Bugzilla/BugUrl/SourceForge.pm uses Throw*Error calls correctly
+ok 1454 - Bugzilla/BugUrl/Trac.pm uses Throw*Error calls correctly
+ok 1455 - Bugzilla/BugUrl/Launchpad.pm uses Throw*Error calls correctly
+ok 1456 - Bugzilla/BugUrl/Debian.pm uses Throw*Error calls correctly
+ok 1457 - Bugzilla/BugUrl/MantisBT.pm uses Throw*Error calls correctly
+ok 1458 - Bugzilla/BugUrl/Google.pm uses Throw*Error calls correctly
+ok 1459 - Bugzilla/BugUrl/GitHub.pm uses Throw*Error calls correctly
+ok 1460 - Bugzilla/BugUrl/Bugzilla/Local.pm uses Throw*Error calls correctly
+ok 1461 - Bugzilla/Config/Attachment.pm uses Throw*Error calls correctly
+ok 1462 - Bugzilla/Config/BugFields.pm uses Throw*Error calls correctly
+ok 1463 - Bugzilla/Config/Auth.pm uses Throw*Error calls correctly
+ok 1464 - Bugzilla/Config/Advanced.pm uses Throw*Error calls correctly
+ok 1465 - Bugzilla/Config/General.pm uses Throw*Error calls correctly
+ok 1466 - Bugzilla/Config/GroupSecurity.pm uses Throw*Error calls correctly
+ok 1467 - Bugzilla/Config/ShadowDB.pm uses Throw*Error calls correctly
+ok 1468 - Bugzilla/Config/RADIUS.pm uses Throw*Error calls correctly
+ok 1469 - Bugzilla/Config/LDAP.pm uses Throw*Error calls correctly
+ok 1470 - Bugzilla/Config/Common.pm uses Throw*Error calls correctly
+ok 1471 - Bugzilla/Config/UserMatch.pm uses Throw*Error calls correctly
+ok 1472 - Bugzilla/Config/Memcached.pm uses Throw*Error calls correctly
+ok 1473 - Bugzilla/Config/Admin.pm uses Throw*Error calls correctly
+ok 1474 - Bugzilla/Config/BugChange.pm uses Throw*Error calls correctly
+ok 1475 - Bugzilla/Config/Query.pm uses Throw*Error calls correctly
+ok 1476 - Bugzilla/Config/Core.pm uses Throw*Error calls correctly
+ok 1477 - Bugzilla/Config/MTA.pm uses Throw*Error calls correctly
+ok 1478 - Bugzilla/Template/Context.pm uses Throw*Error calls correctly
+ok 1479 - Bugzilla/Template/Plugin/Bugzilla.pm uses Throw*Error calls correctly
+ok 1480 - Bugzilla/Template/Plugin/Hook.pm uses Throw*Error calls correctly
+ok 1481 - Bugzilla/Sender/Transport/Sendmail.pm uses Throw*Error calls correctly
+ok 1482 - Bugzilla/Search/Condition.pm uses Throw*Error calls correctly
+ok 1483 - Bugzilla/Search/Clause.pm uses Throw*Error calls correctly
+ok 1484 - Bugzilla/Search/Saved.pm uses Throw*Error calls correctly
+ok 1485 - Bugzilla/Search/Quicksearch.pm uses Throw*Error calls correctly
+ok 1486 - Bugzilla/Search/ClauseGroup.pm uses Throw*Error calls correctly
+ok 1487 - Bugzilla/Search/Recent.pm uses Throw*Error calls correctly
+ok 1488 - Bugzilla/Field/ChoiceInterface.pm uses Throw*Error calls correctly
+ok 1489 - Bugzilla/Field/Choice.pm uses Throw*Error calls correctly
+ok 1490 - Bugzilla/Whine/Schedule.pm uses Throw*Error calls correctly
+ok 1491 - Bugzilla/Whine/Query.pm uses Throw*Error calls correctly
+ok 1492 - Bugzilla/Job/Mailer.pm uses Throw*Error calls correctly
+ok 1493 - Bugzilla/Job/BugMail.pm uses Throw*Error calls correctly
+ok 1494 - Bugzilla/Attachment/PatchReader.pm uses Throw*Error calls correctly
+ok 1495 - Bugzilla/Auth/Login.pm uses Throw*Error calls correctly
+ok 1496 - Bugzilla/Auth/Verify.pm uses Throw*Error calls correctly
+ok 1497 - Bugzilla/Auth/Persist/Cookie.pm uses Throw*Error calls correctly
+ok 1498 - Bugzilla/Auth/Login/CGI.pm uses Throw*Error calls correctly
+ok 1499 - Bugzilla/Auth/Login/Env.pm uses Throw*Error calls correctly
+ok 1500 - Bugzilla/Auth/Login/Stack.pm uses Throw*Error calls correctly
+ok 1501 - Bugzilla/Auth/Login/Cookie.pm uses Throw*Error calls correctly
+ok 1502 - Bugzilla/Auth/Login/APIKey.pm uses Throw*Error calls correctly
+ok 1503 - Bugzilla/Auth/Verify/DB.pm uses Throw*Error calls correctly
+ok 1504 - Bugzilla/Auth/Verify/RADIUS.pm uses Throw*Error calls correctly
+ok 1505 - Bugzilla/Auth/Verify/LDAP.pm uses Throw*Error calls correctly
+ok 1506 - Bugzilla/Auth/Verify/Stack.pm uses Throw*Error calls correctly
+ok 1507 - docs/lib/Pod/Simple/HTMLBatch/Bugzilla.pm uses Throw*Error calls correctly
+ok 1508 - docs/lib/Pod/Simple/HTML/Bugzilla.pm uses Throw*Error calls correctly
+ok 1509 - extensions/create.pl uses Throw*Error calls correctly
+ok 1510 - docs/makedocs.pl uses Throw*Error calls correctly
+ok 1511 - t/001compile.t has no vulnerable hash syntax
+ok 1512 - t/002goodperl.t has no vulnerable hash syntax
+ok 1513 - t/004template.t has no vulnerable hash syntax
+ok 1514 - t/005whitespace.t has no vulnerable hash syntax
+ok 1515 - t/006spellcheck.t has no vulnerable hash syntax
+ok 1516 - t/007util.t has no vulnerable hash syntax
+ok 1517 - t/008filter.t has no vulnerable hash syntax
+ok 1518 - t/009bugwords.t has no vulnerable hash syntax
+ok 1519 - t/010dependencies.t has no vulnerable hash syntax
+ok 1520 - t/011pod.t has no vulnerable hash syntax
+ok 1521 - t/012throwables.t has no vulnerable hash syntax
+ok 1522 - t/013dbschema.t has no vulnerable hash syntax
+ok 1523 - t/014critic-core.t has no vulnerable hash syntax
+ok 1524 - t/015remote_ip.t has no vulnerable hash syntax
+ok 1525 - t/016csp.t has no vulnerable hash syntax
+ok 1526 - t/100markdown.t has no vulnerable hash syntax
+ok 1527 - xt/rest/bugzilla.t has no vulnerable hash syntax
+ok 1528 - xt/rest/classification.t has no vulnerable hash syntax
+ok 1529 - xt/selenium/bug_edit.t has no vulnerable hash syntax
+ok 1530 - xt/selenium/choose_priority.t has no vulnerable hash syntax
+ok 1531 - xt/selenium/classifications.t has no vulnerable hash syntax
+ok 1532 - xt/selenium/config.t has no vulnerable hash syntax
+ok 1533 - xt/selenium/create_user_accounts.t has no vulnerable hash syntax
+ok 1534 - xt/selenium/custom_fields.t has no vulnerable hash syntax
+ok 1535 - xt/selenium/custom_fields_admin.t has no vulnerable hash syntax
+ok 1536 - xt/selenium/dependencies.t has no vulnerable hash syntax
+ok 1537 - xt/selenium/edit_products_properties.t has no vulnerable hash syntax
+ok 1538 - xt/selenium/email_preferences.t has no vulnerable hash syntax
+ok 1539 - xt/selenium/enter_new_bug.t has no vulnerable hash syntax
+ok 1540 - xt/selenium/flags.t has no vulnerable hash syntax
+ok 1541 - xt/selenium/flags2.t has no vulnerable hash syntax
+ok 1542 - xt/selenium/groups.t has no vulnerable hash syntax
+ok 1543 - xt/selenium/keywords.t has no vulnerable hash syntax
+ok 1544 - xt/selenium/login.t has no vulnerable hash syntax
+ok 1545 - xt/selenium/milestones.t has no vulnerable hash syntax
+ok 1546 - xt/selenium/password_complexity.t has no vulnerable hash syntax
+ok 1547 - xt/selenium/private_attachments.t has no vulnerable hash syntax
+ok 1548 - xt/selenium/qa_contact.t has no vulnerable hash syntax
+ok 1549 - xt/selenium/require_login.t has no vulnerable hash syntax
+ok 1550 - xt/selenium/sanity_check.t has no vulnerable hash syntax
+ok 1551 - xt/selenium/saved_searches.t has no vulnerable hash syntax
+ok 1552 - xt/selenium/search.t has no vulnerable hash syntax
+ok 1553 - xt/selenium/security.t has no vulnerable hash syntax
+ok 1554 - xt/selenium/shared_searches.t has no vulnerable hash syntax
+ok 1555 - xt/selenium/show_all_products.t has no vulnerable hash syntax
+ok 1556 - xt/selenium/shutdown.t has no vulnerable hash syntax
+ok 1557 - xt/selenium/status_whiteboard.t has no vulnerable hash syntax
+ok 1558 - xt/selenium/strict_isolation.t has no vulnerable hash syntax
+ok 1559 - xt/selenium/sudo_sessions.t has no vulnerable hash syntax
+ok 1560 - xt/selenium/target_milestones.t has no vulnerable hash syntax
+ok 1561 - xt/selenium/time_summary.t has no vulnerable hash syntax
+ok 1562 - xt/selenium/user_groups.t has no vulnerable hash syntax
+ok 1563 - xt/selenium/user_matching.t has no vulnerable hash syntax
+ok 1564 - xt/selenium/user_preferences.t has no vulnerable hash syntax
+ok 1565 - xt/selenium/user_privs.t has no vulnerable hash syntax
+ok 1566 - xt/selenium/votes.t has no vulnerable hash syntax
+ok 1567 - xt/webservice/bug_add_attachment.t has no vulnerable hash syntax
+ok 1568 - xt/webservice/bug_add_comment.t has no vulnerable hash syntax
+ok 1569 - xt/webservice/bug_attachments.t has no vulnerable hash syntax
+ok 1570 - xt/webservice/bug_comments.t has no vulnerable hash syntax
+ok 1571 - xt/webservice/bug_create.t has no vulnerable hash syntax
+ok 1572 - xt/webservice/bug_fields.t has no vulnerable hash syntax
+ok 1573 - xt/webservice/bug_get.t has no vulnerable hash syntax
+ok 1574 - xt/webservice/bug_history.t has no vulnerable hash syntax
+ok 1575 - xt/webservice/bug_legal_values.t has no vulnerable hash syntax
+ok 1576 - xt/webservice/bug_search.t has no vulnerable hash syntax
+ok 1577 - xt/webservice/bug_update.t has no vulnerable hash syntax
+ok 1578 - xt/webservice/bug_update_see_also.t has no vulnerable hash syntax
+ok 1579 - xt/webservice/bugzilla.t has no vulnerable hash syntax
+ok 1580 - xt/webservice/group_create.t has no vulnerable hash syntax
+ok 1581 - xt/webservice/jsonp.t has no vulnerable hash syntax
+ok 1582 - xt/webservice/product_create.t has no vulnerable hash syntax
+ok 1583 - xt/webservice/product_get.t has no vulnerable hash syntax
+ok 1584 - xt/webservice/user_create.t has no vulnerable hash syntax
+ok 1585 - xt/webservice/user_get.t has no vulnerable hash syntax
+ok 1586 - xt/webservice/user_login_logout.t has no vulnerable hash syntax
+ok 1587 - xt/webservice/user_offer_account_by_email.t has no vulnerable hash syntax
+ok 1588 - admin.cgi has no vulnerable hash syntax
+ok 1589 - app.psgi has no vulnerable hash syntax
+ok 1590 - attachment.cgi has no vulnerable hash syntax
+ok 1591 - auth.cgi has no vulnerable hash syntax
+ok 1592 - buglist.cgi has no vulnerable hash syntax
+ok 1593 - Bugzilla.pm has no vulnerable hash syntax
+ok 1594 - chart.cgi has no vulnerable hash syntax
+ok 1595 - checksetup.pl has no vulnerable hash syntax
+ok 1596 - clean-bug-user-last-visit.pl has no vulnerable hash syntax
+ok 1597 - colchange.cgi has no vulnerable hash syntax
+ok 1598 - collectstats.pl has no vulnerable hash syntax
+ok 1599 - config.cgi has no vulnerable hash syntax
+ok 1600 - createaccount.cgi has no vulnerable hash syntax
+ok 1601 - describecomponents.cgi has no vulnerable hash syntax
+ok 1602 - describekeywords.cgi has no vulnerable hash syntax
+ok 1603 - duplicates.cgi has no vulnerable hash syntax
+ok 1604 - editclassifications.cgi has no vulnerable hash syntax
+ok 1605 - editcomponents.cgi has no vulnerable hash syntax
+ok 1606 - editfields.cgi has no vulnerable hash syntax
+ok 1607 - editflagtypes.cgi has no vulnerable hash syntax
+ok 1608 - editgroups.cgi has no vulnerable hash syntax
+ok 1609 - editkeywords.cgi has no vulnerable hash syntax
+ok 1610 - editmilestones.cgi has no vulnerable hash syntax
+ok 1611 - editparams.cgi has no vulnerable hash syntax
+ok 1612 - editproducts.cgi has no vulnerable hash syntax
+ok 1613 - editsettings.cgi has no vulnerable hash syntax
+ok 1614 - editusers.cgi has no vulnerable hash syntax
+ok 1615 - editvalues.cgi has no vulnerable hash syntax
+ok 1616 - editversions.cgi has no vulnerable hash syntax
+ok 1617 - editwhines.cgi has no vulnerable hash syntax
+ok 1618 - editworkflow.cgi has no vulnerable hash syntax
+ok 1619 - email_in.pl has no vulnerable hash syntax
+ok 1620 - enter_bug.cgi has no vulnerable hash syntax
+ok 1621 - gen-cpanfile.pl has no vulnerable hash syntax
+ok 1622 - importxml.pl has no vulnerable hash syntax
+ok 1623 - index.cgi has no vulnerable hash syntax
+ok 1624 - jobqueue.pl has no vulnerable hash syntax
+ok 1625 - jsonrpc.cgi has no vulnerable hash syntax
+ok 1626 - migrate.pl has no vulnerable hash syntax
+ok 1627 - mod_perl.pl has no vulnerable hash syntax
+ok 1628 - page.cgi has no vulnerable hash syntax
+ok 1629 - post_bug.cgi has no vulnerable hash syntax
+ok 1630 - process_bug.cgi has no vulnerable hash syntax
+ok 1631 - query.cgi has no vulnerable hash syntax
+ok 1632 - quips.cgi has no vulnerable hash syntax
+ok 1633 - relogin.cgi has no vulnerable hash syntax
+ok 1634 - report.cgi has no vulnerable hash syntax
+ok 1635 - reports.cgi has no vulnerable hash syntax
+ok 1636 - request.cgi has no vulnerable hash syntax
+ok 1637 - rest.cgi has no vulnerable hash syntax
+ok 1638 - sanitycheck.cgi has no vulnerable hash syntax
+ok 1639 - sanitycheck.pl has no vulnerable hash syntax
+ok 1640 - search_plugin.cgi has no vulnerable hash syntax
+ok 1641 - show_activity.cgi has no vulnerable hash syntax
+ok 1642 - show_bug.cgi has no vulnerable hash syntax
+ok 1643 - showdependencygraph.cgi has no vulnerable hash syntax
+ok 1644 - showdependencytree.cgi has no vulnerable hash syntax
+ok 1645 - shutdown.cgi has no vulnerable hash syntax
+ok 1646 - summarize_time.cgi has no vulnerable hash syntax
+ok 1647 - testagent.cgi has no vulnerable hash syntax
+ok 1648 - testserver.pl has no vulnerable hash syntax
+ok 1649 - token.cgi has no vulnerable hash syntax
+ok 1650 - userprefs.cgi has no vulnerable hash syntax
+ok 1651 - view_job_queue.cgi has no vulnerable hash syntax
+ok 1652 - votes.cgi has no vulnerable hash syntax
+ok 1653 - whine.pl has no vulnerable hash syntax
+ok 1654 - whineatnews.pl has no vulnerable hash syntax
+ok 1655 - xmlrpc.cgi has no vulnerable hash syntax
+ok 1656 - Bugzilla/Group.pm has no vulnerable hash syntax
+ok 1657 - Bugzilla/User.pm has no vulnerable hash syntax
+ok 1658 - Bugzilla/Attachment.pm has no vulnerable hash syntax
+ok 1659 - Bugzilla/Version.pm has no vulnerable hash syntax
+ok 1660 - Bugzilla/Template.pm has no vulnerable hash syntax
+ok 1661 - Bugzilla/Auth.pm has no vulnerable hash syntax
+ok 1662 - Bugzilla/RNG.pm has no vulnerable hash syntax
+ok 1663 - Bugzilla/WebService.pm has no vulnerable hash syntax
+ok 1664 - Bugzilla/DB.pm has no vulnerable hash syntax
+ok 1665 - Bugzilla/Update.pm has no vulnerable hash syntax
+ok 1666 - Bugzilla/Search.pm has no vulnerable hash syntax
+ok 1667 - Bugzilla/BugUrl.pm has no vulnerable hash syntax
+ok 1668 - Bugzilla/Constants.pm has no vulnerable hash syntax
+ok 1669 - Bugzilla/CGI.pm has no vulnerable hash syntax
+ok 1670 - Bugzilla/Bug.pm has no vulnerable hash syntax
+ok 1671 - Bugzilla/Markdown.pm has no vulnerable hash syntax
+ok 1672 - Bugzilla/Extension.pm has no vulnerable hash syntax
+ok 1673 - Bugzilla/Config.pm has no vulnerable hash syntax
+ok 1674 - Bugzilla/JobQueue.pm has no vulnerable hash syntax
+ok 1675 - Bugzilla/Util.pm has no vulnerable hash syntax
+ok 1676 - Bugzilla/FlagType.pm has no vulnerable hash syntax
+ok 1677 - Bugzilla/Hook.pm has no vulnerable hash syntax
+ok 1678 - Bugzilla/Object.pm has no vulnerable hash syntax
+ok 1679 - Bugzilla/Series.pm has no vulnerable hash syntax
+ok 1680 - Bugzilla/Install.pm has no vulnerable hash syntax
+ok 1681 - Bugzilla/Token.pm has no vulnerable hash syntax
+ok 1682 - Bugzilla/Classification.pm has no vulnerable hash syntax
+ok 1683 - Bugzilla/Comment.pm has no vulnerable hash syntax
+ok 1684 - Bugzilla/BugUserLastVisit.pm has no vulnerable hash syntax
+ok 1685 - Bugzilla/Field.pm has no vulnerable hash syntax
+ok 1686 - Bugzilla/Report.pm has no vulnerable hash syntax
+ok 1687 - Bugzilla/Product.pm has no vulnerable hash syntax
+ok 1688 - Bugzilla/Status.pm has no vulnerable hash syntax
+ok 1689 - Bugzilla/Flag.pm has no vulnerable hash syntax
+ok 1690 - Bugzilla/Keyword.pm has no vulnerable hash syntax
+ok 1691 - Bugzilla/Component.pm has no vulnerable hash syntax
+ok 1692 - Bugzilla/Milestone.pm has no vulnerable hash syntax
+ok 1693 - Bugzilla/Memcached.pm has no vulnerable hash syntax
+ok 1694 - Bugzilla/MIME.pm has no vulnerable hash syntax
+ok 1695 - Bugzilla/Chart.pm has no vulnerable hash syntax
+ok 1696 - Bugzilla/Whine.pm has no vulnerable hash syntax
+ok 1697 - Bugzilla/UserAgent.pm has no vulnerable hash syntax
+ok 1698 - Bugzilla/Mailer.pm has no vulnerable hash syntax
+ok 1699 - Bugzilla/Migrate.pm has no vulnerable hash syntax
+ok 1700 - Bugzilla/BugMail.pm has no vulnerable hash syntax
+ok 1701 - Bugzilla/Error.pm has no vulnerable hash syntax
+ok 1702 - Bugzilla/User/Setting.pm has no vulnerable hash syntax
+ok 1703 - Bugzilla/User/APIKey.pm has no vulnerable hash syntax
+ok 1704 - Bugzilla/User/Setting/Timezone.pm has no vulnerable hash syntax
+ok 1705 - Bugzilla/User/Setting/Lang.pm has no vulnerable hash syntax
+ok 1706 - Bugzilla/User/Setting/Skin.pm has no vulnerable hash syntax
+ok 1707 - Bugzilla/API/Server.pm has no vulnerable hash syntax
+ok 1708 - Bugzilla/API/1_0/Constants.pm has no vulnerable hash syntax
+ok 1709 - Bugzilla/API/1_0/Util.pm has no vulnerable hash syntax
+ok 1710 - Bugzilla/API/1_0/Server.pm has no vulnerable hash syntax
+ok 1711 - Bugzilla/API/1_0/Resource.pm has no vulnerable hash syntax
+ok 1712 - Bugzilla/API/1_0/Resource/Group.pm has no vulnerable hash syntax
+ok 1713 - Bugzilla/API/1_0/Resource/User.pm has no vulnerable hash syntax
+ok 1714 - Bugzilla/API/1_0/Resource/Bugzilla.pm has no vulnerable hash syntax
+ok 1715 - Bugzilla/API/1_0/Resource/Bug.pm has no vulnerable hash syntax
+ok 1716 - Bugzilla/API/1_0/Resource/FlagType.pm has no vulnerable hash syntax
+ok 1717 - Bugzilla/API/1_0/Resource/Classification.pm has no vulnerable hash syntax
+ok 1718 - Bugzilla/API/1_0/Resource/BugUserLastVisit.pm has no vulnerable hash syntax
+ok 1719 - Bugzilla/API/1_0/Resource/Product.pm has no vulnerable hash syntax
+ok 1720 - Bugzilla/API/1_0/Resource/Component.pm has no vulnerable hash syntax
+ok 1721 - Bugzilla/Comment/TagWeights.pm has no vulnerable hash syntax
+ok 1722 - Bugzilla/JobQueue/Runner.pm has no vulnerable hash syntax
+ok 1723 - Bugzilla/Migrate/Gnats.pm has no vulnerable hash syntax
+ok 1724 - Bugzilla/CGI/ContentSecurityPolicy.pm has no vulnerable hash syntax
+ok 1725 - Bugzilla/WebService/Group.pm has no vulnerable hash syntax
+ok 1726 - Bugzilla/WebService/User.pm has no vulnerable hash syntax
+ok 1727 - Bugzilla/WebService/Bugzilla.pm has no vulnerable hash syntax
+ok 1728 - Bugzilla/WebService/Constants.pm has no vulnerable hash syntax
+ok 1729 - Bugzilla/WebService/Bug.pm has no vulnerable hash syntax
+ok 1730 - Bugzilla/WebService/Util.pm has no vulnerable hash syntax
+ok 1731 - Bugzilla/WebService/FlagType.pm has no vulnerable hash syntax
+ok 1732 - Bugzilla/WebService/Classification.pm has no vulnerable hash syntax
+ok 1733 - Bugzilla/WebService/Server.pm has no vulnerable hash syntax
+ok 1734 - Bugzilla/WebService/BugUserLastVisit.pm has no vulnerable hash syntax
+ok 1735 - Bugzilla/WebService/Product.pm has no vulnerable hash syntax
+ok 1736 - Bugzilla/WebService/Component.pm has no vulnerable hash syntax
+ok 1737 - Bugzilla/WebService/Server/JSONRPC.pm has no vulnerable hash syntax
+ok 1738 - Bugzilla/WebService/Server/XMLRPC.pm has no vulnerable hash syntax
+ok 1739 - Bugzilla/Install/Filesystem.pm has no vulnerable hash syntax
+ok 1740 - Bugzilla/Install/DB.pm has no vulnerable hash syntax
+ok 1741 - Bugzilla/Install/Util.pm has no vulnerable hash syntax
+ok 1742 - Bugzilla/Install/Requirements.pm has no vulnerable hash syntax
+ok 1743 - Bugzilla/Install/Localconfig.pm has no vulnerable hash syntax
+ok 1744 - Bugzilla/DB/Oracle.pm has no vulnerable hash syntax
+ok 1745 - Bugzilla/DB/Sqlite.pm has no vulnerable hash syntax
+ok 1746 - Bugzilla/DB/Pg.pm has no vulnerable hash syntax
+ok 1747 - Bugzilla/DB/Schema.pm has no vulnerable hash syntax
+ok 1748 - Bugzilla/DB/Mysql.pm has no vulnerable hash syntax
+ok 1749 - Bugzilla/DB/Schema/Oracle.pm has no vulnerable hash syntax
+ok 1750 - Bugzilla/DB/Schema/Sqlite.pm has no vulnerable hash syntax
+ok 1751 - Bugzilla/DB/Schema/Pg.pm has no vulnerable hash syntax
+ok 1752 - Bugzilla/DB/Schema/Mysql.pm has no vulnerable hash syntax
+ok 1753 - Bugzilla/BugUrl/Bugzilla.pm has no vulnerable hash syntax
+ok 1754 - Bugzilla/BugUrl/JIRA.pm has no vulnerable hash syntax
+ok 1755 - Bugzilla/BugUrl/SourceForge.pm has no vulnerable hash syntax
+ok 1756 - Bugzilla/BugUrl/Trac.pm has no vulnerable hash syntax
+ok 1757 - Bugzilla/BugUrl/Launchpad.pm has no vulnerable hash syntax
+ok 1758 - Bugzilla/BugUrl/Debian.pm has no vulnerable hash syntax
+ok 1759 - Bugzilla/BugUrl/MantisBT.pm has no vulnerable hash syntax
+ok 1760 - Bugzilla/BugUrl/Google.pm has no vulnerable hash syntax
+ok 1761 - Bugzilla/BugUrl/GitHub.pm has no vulnerable hash syntax
+ok 1762 - Bugzilla/BugUrl/Bugzilla/Local.pm has no vulnerable hash syntax
+ok 1763 - Bugzilla/Config/Attachment.pm has no vulnerable hash syntax
+ok 1764 - Bugzilla/Config/BugFields.pm has no vulnerable hash syntax
+ok 1765 - Bugzilla/Config/Auth.pm has no vulnerable hash syntax
+ok 1766 - Bugzilla/Config/Advanced.pm has no vulnerable hash syntax
+ok 1767 - Bugzilla/Config/General.pm has no vulnerable hash syntax
+ok 1768 - Bugzilla/Config/GroupSecurity.pm has no vulnerable hash syntax
+ok 1769 - Bugzilla/Config/ShadowDB.pm has no vulnerable hash syntax
+ok 1770 - Bugzilla/Config/RADIUS.pm has no vulnerable hash syntax
+ok 1771 - Bugzilla/Config/LDAP.pm has no vulnerable hash syntax
+ok 1772 - Bugzilla/Config/Common.pm has no vulnerable hash syntax
+ok 1773 - Bugzilla/Config/UserMatch.pm has no vulnerable hash syntax
+ok 1774 - Bugzilla/Config/Memcached.pm has no vulnerable hash syntax
+ok 1775 - Bugzilla/Config/Admin.pm has no vulnerable hash syntax
+ok 1776 - Bugzilla/Config/BugChange.pm has no vulnerable hash syntax
+ok 1777 - Bugzilla/Config/Query.pm has no vulnerable hash syntax
+ok 1778 - Bugzilla/Config/Core.pm has no vulnerable hash syntax
+ok 1779 - Bugzilla/Config/MTA.pm has no vulnerable hash syntax
+ok 1780 - Bugzilla/Template/Context.pm has no vulnerable hash syntax
+ok 1781 - Bugzilla/Template/Plugin/Bugzilla.pm has no vulnerable hash syntax
+ok 1782 - Bugzilla/Template/Plugin/Hook.pm has no vulnerable hash syntax
+ok 1783 - Bugzilla/Sender/Transport/Sendmail.pm has no vulnerable hash syntax
+ok 1784 - Bugzilla/Search/Condition.pm has no vulnerable hash syntax
+ok 1785 - Bugzilla/Search/Clause.pm has no vulnerable hash syntax
+ok 1786 - Bugzilla/Search/Saved.pm has no vulnerable hash syntax
+ok 1787 - Bugzilla/Search/Quicksearch.pm has no vulnerable hash syntax
+ok 1788 - Bugzilla/Search/ClauseGroup.pm has no vulnerable hash syntax
+ok 1789 - Bugzilla/Search/Recent.pm has no vulnerable hash syntax
+ok 1790 - Bugzilla/Field/ChoiceInterface.pm has no vulnerable hash syntax
+ok 1791 - Bugzilla/Field/Choice.pm has no vulnerable hash syntax
+ok 1792 - Bugzilla/Whine/Schedule.pm has no vulnerable hash syntax
+ok 1793 - Bugzilla/Whine/Query.pm has no vulnerable hash syntax
+ok 1794 - Bugzilla/Job/Mailer.pm has no vulnerable hash syntax
+ok 1795 - Bugzilla/Job/BugMail.pm has no vulnerable hash syntax
+ok 1796 - Bugzilla/Attachment/PatchReader.pm has no vulnerable hash syntax
+ok 1797 - Bugzilla/Auth/Login.pm has no vulnerable hash syntax
+ok 1798 - Bugzilla/Auth/Verify.pm has no vulnerable hash syntax
+ok 1799 - Bugzilla/Auth/Persist/Cookie.pm has no vulnerable hash syntax
+ok 1800 - Bugzilla/Auth/Login/CGI.pm has no vulnerable hash syntax
+ok 1801 - Bugzilla/Auth/Login/Env.pm has no vulnerable hash syntax
+ok 1802 - Bugzilla/Auth/Login/Stack.pm has no vulnerable hash syntax
+ok 1803 - Bugzilla/Auth/Login/Cookie.pm has no vulnerable hash syntax
+ok 1804 - Bugzilla/Auth/Login/APIKey.pm has no vulnerable hash syntax
+ok 1805 - Bugzilla/Auth/Verify/DB.pm has no vulnerable hash syntax
+ok 1806 - Bugzilla/Auth/Verify/RADIUS.pm has no vulnerable hash syntax
+ok 1807 - Bugzilla/Auth/Verify/LDAP.pm has no vulnerable hash syntax
+ok 1808 - Bugzilla/Auth/Verify/Stack.pm has no vulnerable hash syntax
+ok 1809 - docs/lib/Pod/Simple/HTMLBatch/Bugzilla.pm has no vulnerable hash syntax
+ok 1810 - docs/lib/Pod/Simple/HTML/Bugzilla.pm has no vulnerable hash syntax
+ok 1811 - extensions/create.pl has no vulnerable hash syntax
+ok 1812 - docs/makedocs.pl has no vulnerable hash syntax
