@@ -61,6 +61,8 @@ RUN /bin/bash /docker_files/my_config.sh
 # Final permissions fix
 RUN chown -R $USER.$USER $HOME
 
+# Test revert 202003271716
+
 # Networking
 RUN echo "NETWORKING=yes" > /etc/sysconfig/network
 EXPOSE 80
