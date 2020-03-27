@@ -68,8 +68,6 @@ RUN echo "NETWORKING=yes" > /etc/sysconfig/network
 EXPOSE 80
 EXPOSE 5900
 
-# Test revert 202003271710
-
 # Testing scripts for CI
 ADD https://selenium-release.storage.googleapis.com/2.45/selenium-server-standalone-2.45.0.jar /selenium-server.jar
 
